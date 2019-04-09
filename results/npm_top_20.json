@@ -1,0 +1,363 @@
+[
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/facebook/react"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 338,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/webpack/webpack"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/Microsoft/TypeScript"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/lodash/lodash"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/babel/babel"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T11:15:19.826828Z",
+        "credit": [
+          "rlidwka"
+        ],
+        "cvssScore": 8.1,
+        "description": "## Overview\r\n\r\n[js-yaml](https://www.npmjs.com/package/js-yaml) is a human-friendly data serialization language.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nWhen object with an executable `toString()` property used as a map key, it will execute that function. This happens only for `load()`, which should not be used with untrusted data anyway. `safeLoad()` is not affected because it can't parse functions.\r\n\r\n## Remediation\r\n\r\nUpgrade `js-yaml` to version 3.13.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [GitHub PR](https://github.com/nodeca/js-yaml/pull/480)\r\n\r\n- [GitHub Commit](https://github.com/nodeca/js-yaml/pull/480/commits/e18afbf1edcafb7add2c4c7b22abc8d6ebc2fa61)\r\n",
+        "disclosureTime": "2019-04-05T15:54:43Z",
+        "functions": [],
+        "id": "SNYK-JS-JSYAML-174129",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "js",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.110005Z",
+        "moduleName": "js-yaml",
+        "packageManager": "npm",
+        "packageName": "js-yaml",
+        "patches": [],
+        "publicationTime": "2019-04-07T15:54:43Z",
+        "references": [
+          {
+            "title": "GitHub PR",
+            "url": "https://github.com/nodeca/js-yaml/pull/480"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/nodeca/js-yaml/pull/480/commits/e18afbf1edcafb7add2c4c7b22abc8d6ebc2fa61"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<3.13.1"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "mocha@mochajs/mocha#51212115c8f46d47b57ce9e65f054f83bc7a0acc",
+          "js-yaml@3.13.0"
+        ],
+        "upgradePath": [
+          false,
+          "js-yaml@3.13.1"
+        ],
+        "version": "3.13.0",
+        "name": "js-yaml",
+        "isUpgradable": true,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 114,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/mochajs/mocha"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/tj/commander.js"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 113,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/eslint/eslint"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 48,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/expressjs/express"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/moment/moment"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 329,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/gulpjs/gulp"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 166,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/facebook/jest"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 6,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/chalk/chalk"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 32,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/babel/babel-loader"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 37,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/webpack-contrib/css-loader"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 11,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/isaacs/rimraf"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/vuejs/vue"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/twbs/bootstrap"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "alextompkins",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/facebook/create-react-app"
+  }
+]
