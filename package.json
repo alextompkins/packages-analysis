@@ -2,6 +2,7 @@
   "name": "packages-analysis",
   "version": "0.0.1",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "command-line-args": "^5.1.1"
   }
 }
