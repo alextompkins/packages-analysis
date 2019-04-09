@@ -28,7 +28,6 @@ async function getRepoUrls(platform, count) {
     let page = 1;
 
     while (urls.size < count) {
-        console.log(`Making request for page ${page}`);
         const packages = await searchPackages(platform, page);
         // Map to repository url and add if not duplicate
         packages.forEach(pkg => {
