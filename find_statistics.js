@@ -14,6 +14,7 @@ async function parseReports(reports) {
         },
         numVulnerabilities: 0,
         publicationTime: 0,
+        publicationTimes: [],
     };
 
     for (const report of reports) {
@@ -32,6 +33,7 @@ async function parseReports(reports) {
                 for (const vulnerability of report.vulnerabilities) {
                     stats.numVulnerabilities++;
                     stats.publicationTime += new Date(vulnerability.publicationTime).getTime();
+                    stats.publicationTimes.push(new Date(vulnerability.publicationTime));
                 }
             }
         }
@@ -42,6 +44,12 @@ async function parseReports(reports) {
 
 function round(number, numDecimalPlaces) {
     return Math.round(number * Math.pow(10, numDecimalPlaces)) / Math.pow(10, numDecimalPlaces);
+}
+
+function getMedian(numList) {
+    const sortedList = [...numList];
+    sortedList.sort((n1, n2) => n1 - n2);
+    return sortedList[Math.round(sortedList.length / 2)];
 }
 
 const reports = require('./results/npm_top_500');
@@ -61,6 +69,9 @@ parseReports(reports)
         const averageDate = stats.publicationTime / stats.numVulnerabilities;
         const averageSinceInDays = (Date.now() - averageDate) / (1000 * 60 * 60 * 24);
         console.log(`Average time since vulnerability publication date: ${round(averageSinceInDays, 0)} days`);
+
+        const medianSinceInDays = (Date.now() - getMedian(stats.publicationTimes).getTime()) / (1000 * 60 * 60 * 24);
+        console.log(`Median time since vulnerability publication date: ${round(medianSinceInDays, 0)} days`);
     })
     .catch(err => {
         console.error(`ERROR: ${err.message}`);
