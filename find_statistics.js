@@ -14,6 +14,7 @@ async function parseReports(reports) {
         },
         numVulnerabilities: 0,
         publicationTime: 0,
+        numDependenciesPerPackage: [],
         publicationTimes: [],
     };
 
@@ -22,6 +23,7 @@ async function parseReports(reports) {
             stats.packages.errors++;
         } else {
             stats.numDependencies += report.numDependencies;
+            stats.numDependenciesPerPackage.push(report.numDependencies);
             if (report.ok) {
                 stats.packages.safe++;
             } else {
@@ -55,8 +57,15 @@ function getMedian(numList) {
 const reports = require('./results/npm_top_500');
 parseReports(reports)
     .then(stats => {
-        console.log(stats);
+        console.log({
+            packages: stats.packages,
+            numDependencies: stats.numDependencies,
+            vulnerabilities: stats.vulnerabilities,
+        });
+
         console.log(`Average number of dependencies per package: ${round(stats.numDependencies / stats.packages.total, 2)}`);
+        console.log(`Median number of dependencies per package: ${getMedian(stats.numDependenciesPerPackage)}`);
+
         console.log(`${round(stats.packages.unsafe / stats.packages.total * 100, 2)}% of packages had vulnerable dependencies.`);
 
         const totalVulnerabilities = stats.vulnerabilities.high + stats.vulnerabilities.medium + stats.vulnerabilities.low;
@@ -69,7 +78,6 @@ parseReports(reports)
         const averageDate = stats.publicationTime / stats.numVulnerabilities;
         const averageSinceInDays = (Date.now() - averageDate) / (1000 * 60 * 60 * 24);
         console.log(`Average time since vulnerability publication date: ${round(averageSinceInDays, 0)} days`);
-
         const medianSinceInDays = (Date.now() - getMedian(stats.publicationTimes).getTime()) / (1000 * 60 * 60 * 24);
         console.log(`Median time since vulnerability publication date: ${round(medianSinceInDays, 0)} days`);
     })
