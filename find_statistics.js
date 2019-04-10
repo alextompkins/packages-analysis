@@ -12,6 +12,8 @@ async function parseReports(reports) {
             medium: 0,
             low: 0,
         },
+        numVulnerabilities: 0,
+        publicationTime: 0,
     };
 
     for (const report of reports) {
@@ -26,6 +28,11 @@ async function parseReports(reports) {
                 stats.vulnerabilities.high += report.severityMap.high;
                 stats.vulnerabilities.medium += report.severityMap.medium;
                 stats.vulnerabilities.low += report.severityMap.low;
+
+                for (const vulnerability of report.vulnerabilities) {
+                    stats.numVulnerabilities++;
+                    stats.publicationTime += new Date(vulnerability.publicationTime).getTime();
+                }
             }
         }
     }
@@ -50,6 +57,10 @@ parseReports(reports)
         ${round(stats.vulnerabilities.medium / totalVulnerabilities * 100, 2)}% medium
         ${round(stats.vulnerabilities.low / totalVulnerabilities * 100, 2)}% low
         `);
+
+        const averageDate = stats.publicationTime / stats.numVulnerabilities;
+        const averageSinceInDays = (Date.now() - averageDate) / (1000 * 60 * 60 * 24);
+        console.log(`Average time since vulnerability publication date: ${round(averageSinceInDays, 0)} days`);
     })
     .catch(err => {
         console.error(`ERROR: ${err.message}`);
