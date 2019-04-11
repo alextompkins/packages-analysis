@@ -1,0 +1,182 @@
+[
+  {
+    "path": "https://github.com/FasterXML/jackson-datatype-jsr310",
+    "highVulns": 15,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 16,
+    "lastCommitDate": "2016-11-03T03:35:58Z",
+    "numDependencies": 3
+  },
+  {
+    "path": "https://github.com/tomakehurst/wiremock",
+    "highVulns": 13,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 13,
+    "lastCommitDate": "2019-04-10T18:26:39Z",
+    "numDependencies": 30
+  },
+  {
+    "path": "https://github.com/spotify/docker-client",
+    "highVulns": 0,
+    "mediumVulns": 2,
+    "lowVulns": 0,
+    "totalVulns": 2,
+    "lastCommitDate": "2019-04-05T16:04:31Z",
+    "numDependencies": 54
+  },
+  {
+    "path": "https://github.com/pagehelper/Mybatis-PageHelper",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2018-11-11T12:11:49Z",
+    "numDependencies": 3
+  },
+  {
+    "path": "https://github.com/groovy/groovy-core",
+    "highVulns": 2,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 2,
+    "lastCommitDate": "2016-02-09T14:49:59Z",
+    "numDependencies": 19
+  },
+  {
+    "path": "https://github.com/docker-java/docker-java",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-03-25T14:49:04Z",
+    "numDependencies": 55
+  },
+  {
+    "path": "https://github.com/SpringSource/spring-data-redis",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-01T18:03:18Z",
+    "numDependencies": 38
+  },
+  {
+    "path": "https://github.com/etorreborre/specs2",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-08T09:10:13Z",
+    "numDependencies": 37
+  },
+  {
+    "path": "https://github.com/facebook/react-native",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-11T00:28:32Z",
+    "numDependencies": 584
+  },
+  {
+    "path": "https://github.com/angular/angular",
+    "highVulns": 1,
+    "mediumVulns": 4,
+    "lowVulns": 3,
+    "totalVulns": 8,
+    "lastCommitDate": "2019-03-28T21:54:22Z",
+    "numDependencies": 658
+  },
+  {
+    "path": "https://github.com/Netflix/zuul",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2015-12-11T23:49:44Z",
+    "numDependencies": 9
+  },
+  {
+    "path": "https://github.com/DataTables/DataTables",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2018-06-22T15:34:14Z",
+    "numDependencies": 1
+  },
+  {
+    "path": "https://github.com/msgpack/msgpack-java",
+    "highVulns": 10,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 10,
+    "lastCommitDate": "2015-05-17T14:04:03Z",
+    "numDependencies": 4
+  },
+  {
+    "path": "https://github.com/SpringSource/spring-integration",
+    "highVulns": 1,
+    "mediumVulns": 2,
+    "lowVulns": 0,
+    "totalVulns": 3,
+    "lastCommitDate": "2019-04-10T19:47:50Z",
+    "numDependencies": 160
+  },
+  {
+    "path": "https://github.com/fakemongo/fongo",
+    "highVulns": 15,
+    "mediumVulns": 2,
+    "lowVulns": 0,
+    "totalVulns": 17,
+    "lastCommitDate": "2018-07-12T21:04:07Z",
+    "numDependencies": 7
+  },
+  {
+    "path": "https://github.com/FasterXML/jackson-datatype-jdk8",
+    "highVulns": 3,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 3,
+    "lastCommitDate": "2016-11-03T03:25:46Z",
+    "numDependencies": 2
+  },
+  {
+    "path": "https://github.com/FasterXML/jackson-module-jaxb-annotations",
+    "highVulns": 11,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 11,
+    "lastCommitDate": "2017-07-24T18:21:10Z",
+    "numDependencies": 3
+  },
+  {
+    "path": "https://github.com/FasterXML/jackson-module-parameter-names",
+    "highVulns": 3,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 3,
+    "lastCommitDate": "2016-11-03T02:52:09Z",
+    "numDependencies": 2
+  },
+  {
+    "path": "https://github.com/twitter/finagle",
+    "highVulns": 9,
+    "mediumVulns": 5,
+    "lowVulns": 0,
+    "totalVulns": 14,
+    "lastCommitDate": "2019-03-13T18:00:29Z",
+    "numDependencies": 54
+  },
+  {
+    "path": "https://github.com/SpringSource/spring-data-jpa",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-01T18:03:13Z",
+    "numDependencies": 35
+  }
+]

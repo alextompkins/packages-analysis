@@ -63,3 +63,6 @@ typings/
 # IDEA project files
 .idea/
 *.iml
+
+# Config file
+config/config.js

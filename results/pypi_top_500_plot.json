@@ -1,0 +1,191 @@
+[
+  {
+    "path": "https://github.com/boto/boto",
+    "highVulns": 3,
+    "mediumVulns": 4,
+    "lowVulns": 0,
+    "totalVulns": 7,
+    "lastCommitDate": "2018-07-11T20:41:07Z",
+    "numDependencies": 20
+  },
+  {
+    "path": "https://github.com/lepture/flask-oauthlib",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-01-15T12:04:46Z",
+    "numDependencies": 20
+  },
+  {
+    "path": "https://github.com/twilio/twilio-python",
+    "highVulns": 2,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 2,
+    "lastCommitDate": "2019-03-29T19:43:38Z",
+    "numDependencies": 31
+  },
+  {
+    "path": "https://github.com/pydata/numexpr",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-01-28T19:40:53Z",
+    "numDependencies": 1
+  },
+  {
+    "path": "https://github.com/marcgibbons/django-rest-swagger",
+    "highVulns": 0,
+    "mediumVulns": 2,
+    "lowVulns": 0,
+    "totalVulns": 2,
+    "lastCommitDate": "2018-11-20T08:16:44Z",
+    "numDependencies": 56
+  },
+  {
+    "path": "https://github.com/jazzband/django-pipeline",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 1,
+    "totalVulns": 2,
+    "lastCommitDate": "2019-01-26T22:46:47Z",
+    "numDependencies": 451
+  },
+  {
+    "path": "https://github.com/pycontribs/jira",
+    "highVulns": 1,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 2,
+    "lastCommitDate": "2019-03-14T18:23:26Z",
+    "numDependencies": 421
+  },
+  {
+    "path": "https://github.com/nipy/nibabel",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-02T02:20:13Z",
+    "numDependencies": 2
+  },
+  {
+    "path": "https://github.com/koenbok/Cactus",
+    "highVulns": 5,
+    "mediumVulns": 9,
+    "lowVulns": 1,
+    "totalVulns": 15,
+    "lastCommitDate": "2017-07-31T02:40:23Z",
+    "numDependencies": 24
+  },
+  {
+    "path": "https://github.com/dpgaspar/flask-appbuilder",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-09T23:50:07Z",
+    "numDependencies": 62
+  },
+  {
+    "path": "https://github.com/vimalloc/flask-jwt-extended",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-10T04:38:56Z",
+    "numDependencies": 44
+  },
+  {
+    "path": "https://github.com/ageitgey/face_recognition",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-03-03T18:16:52Z",
+    "numDependencies": 6
+  },
+  {
+    "path": "https://github.com/openai/gym",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-09T02:29:13Z",
+    "numDependencies": 10
+  },
+  {
+    "path": "https://github.com/gunthercox/ChatterBot",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-10T13:50:14Z",
+    "numDependencies": 30
+  },
+  {
+    "path": "https://github.com/numenta/nupic",
+    "highVulns": 3,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 3,
+    "lastCommitDate": "2019-01-15T00:28:42Z",
+    "numDependencies": 24
+  },
+  {
+    "path": "https://github.com/aleju/imgaug",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-03-31T08:13:23Z",
+    "numDependencies": 24
+  },
+  {
+    "path": "https://github.com/kitao/pyxel",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-01-30T14:31:27Z",
+    "numDependencies": 7
+  },
+  {
+    "path": "https://github.com/amueller/word_cloud",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-03-12T18:24:52Z",
+    "numDependencies": 12
+  },
+  {
+    "path": "https://github.com/jupyterhub/jupyterhub",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-09T08:37:04Z",
+    "numDependencies": 5
+  },
+  {
+    "path": "https://github.com/pymc-devs/pymc3",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-10T02:58:58Z",
+    "numDependencies": 10
+  },
+  {
+    "path": "https://github.com/python-visualization/folium",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-07T21:16:40Z",
+    "numDependencies": 10
+  }
+]

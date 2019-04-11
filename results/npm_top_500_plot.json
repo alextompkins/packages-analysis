@@ -1,0 +1,272 @@
+[
+  {
+    "path": "https://github.com/mochajs/mocha",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-05T21:42:35Z",
+    "numDependencies": 114
+  },
+  {
+    "path": "https://github.com/angular/angular",
+    "highVulns": 1,
+    "mediumVulns": 4,
+    "lowVulns": 3,
+    "totalVulns": 8,
+    "lastCommitDate": "2019-03-28T21:54:22Z",
+    "numDependencies": 658
+  },
+  {
+    "path": "https://github.com/prettier/prettier",
+    "highVulns": 1,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 2,
+    "lastCommitDate": "2019-04-08T19:56:39Z",
+    "numDependencies": 182
+  },
+  {
+    "path": "https://github.com/facebook/react-native",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-11T00:28:32Z",
+    "numDependencies": 584
+  },
+  {
+    "path": "https://github.com/bower/bower",
+    "highVulns": 3,
+    "mediumVulns": 5,
+    "lowVulns": 4,
+    "totalVulns": 12,
+    "lastCommitDate": "2019-01-23T21:15:30Z",
+    "numDependencies": 307
+  },
+  {
+    "path": "https://github.com/sass/node-sass",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-03-19T10:37:29Z",
+    "numDependencies": 177
+  },
+  {
+    "path": "https://github.com/ember-cli/ember-cli",
+    "highVulns": 0,
+    "mediumVulns": 0,
+    "lowVulns": 3,
+    "totalVulns": 3,
+    "lastCommitDate": "2019-04-08T21:38:14Z",
+    "numDependencies": 676
+  },
+  {
+    "path": "https://github.com/BrowserSync/browser-sync",
+    "highVulns": 2,
+    "mediumVulns": 2,
+    "lowVulns": 1,
+    "totalVulns": 5,
+    "lastCommitDate": "2018-11-27T09:07:28Z",
+    "numDependencies": 562
+  },
+  {
+    "path": "https://github.com/jshint/jshint",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-03-31T19:49:28Z",
+    "numDependencies": 29
+  },
+  {
+    "path": "https://github.com/yarnpkg/yarn",
+    "highVulns": 0,
+    "mediumVulns": 0,
+    "lowVulns": 1,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-08T10:30:33Z",
+    "numDependencies": 255
+  },
+  {
+    "path": "https://github.com/emberjs/ember.js",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-11T02:05:29Z",
+    "numDependencies": 230
+  },
+  {
+    "path": "https://github.com/semantic-release/semantic-release",
+    "highVulns": 1,
+    "mediumVulns": 1,
+    "lowVulns": 0,
+    "totalVulns": 2,
+    "lastCommitDate": "2019-03-21T15:03:46Z",
+    "numDependencies": 650
+  },
+  {
+    "path": "https://github.com/commitizen/cz-cli",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-02-22T15:23:51Z",
+    "numDependencies": 165
+  },
+  {
+    "path": "https://github.com/dlmanning/gulp-sass",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2018-10-16T08:00:47Z",
+    "numDependencies": 202
+  },
+  {
+    "path": "https://github.com/yeoman/generator",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2018-12-22T12:32:08Z",
+    "numDependencies": 280
+  },
+  {
+    "path": "https://github.com/floatdrop/gulp-watch",
+    "highVulns": 0,
+    "mediumVulns": 0,
+    "lowVulns": 1,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-01-01T16:10:16Z",
+    "numDependencies": 222
+  },
+  {
+    "path": "https://github.com/avajs/ava",
+    "highVulns": 0,
+    "mediumVulns": 0,
+    "lowVulns": 2,
+    "totalVulns": 2,
+    "lastCommitDate": "2019-04-06T15:17:09Z",
+    "numDependencies": 456
+  },
+  {
+    "path": "https://github.com/zalmoxisus/redux-devtools-extension",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 2,
+    "totalVulns": 3,
+    "lastCommitDate": "2019-02-02T22:14:31Z",
+    "numDependencies": 310
+  },
+  {
+    "path": "https://github.com/indexzero/http-server",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-02-06T19:49:58Z",
+    "numDependencies": 25
+  },
+  {
+    "path": "https://github.com/nodejs/node-gyp",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-02T18:42:13Z",
+    "numDependencies": 101
+  },
+  {
+    "path": "https://github.com/ngrx/platform",
+    "highVulns": 2,
+    "mediumVulns": 1,
+    "lowVulns": 3,
+    "totalVulns": 6,
+    "lastCommitDate": "2019-04-10T02:24:22Z",
+    "numDependencies": 541
+  },
+  {
+    "path": "https://github.com/typings/typings",
+    "highVulns": 2,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 2,
+    "lastCommitDate": "2017-06-30T17:48:29Z",
+    "numDependencies": 177
+  },
+  {
+    "path": "https://github.com/nodesecurity/nsp",
+    "highVulns": 0,
+    "mediumVulns": 2,
+    "lowVulns": 2,
+    "totalVulns": 4,
+    "lastCommitDate": "2018-05-08T00:19:17Z",
+    "numDependencies": 110
+  },
+  {
+    "path": "https://github.com/jackfranklin/gulp-load-plugins",
+    "highVulns": 0,
+    "mediumVulns": 0,
+    "lowVulns": 1,
+    "totalVulns": 1,
+    "lastCommitDate": "2018-02-03T16:47:21Z",
+    "numDependencies": 64
+  },
+  {
+    "path": "https://github.com/gruntjs/grunt-contrib-jshint",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-03-18T12:16:34Z",
+    "numDependencies": 38
+  },
+  {
+    "path": "https://github.com/spalger/gulp-jshint",
+    "highVulns": 0,
+    "mediumVulns": 0,
+    "lowVulns": 2,
+    "totalVulns": 2,
+    "lastCommitDate": "2018-10-31T22:43:42Z",
+    "numDependencies": 31
+  },
+  {
+    "path": "https://github.com/Microsoft/vscode",
+    "highVulns": 0,
+    "mediumVulns": 0,
+    "lowVulns": 1,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-11T00:35:32Z",
+    "numDependencies": 249
+  },
+  {
+    "path": "https://github.com/Unitech/pm2",
+    "highVulns": 1,
+    "mediumVulns": 0,
+    "lowVulns": 0,
+    "totalVulns": 1,
+    "lastCommitDate": "2019-04-08T09:21:58Z",
+    "numDependencies": 313
+  },
+  {
+    "path": "https://github.com/balderdashy/sails",
+    "highVulns": 2,
+    "mediumVulns": 1,
+    "lowVulns": 5,
+    "totalVulns": 8,
+    "lastCommitDate": "2019-04-10T20:39:46Z",
+    "numDependencies": 213
+  },
+  {
+    "path": "https://github.com/facebook/relay",
+    "highVulns": 0,
+    "mediumVulns": 1,
+    "lowVulns": 2,
+    "totalVulns": 3,
+    "lastCommitDate": "2019-04-09T18:25:37Z",
+    "numDependencies": 1005
+  }
+]
