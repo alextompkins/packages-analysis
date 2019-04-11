@@ -1,0 +1,3787 @@
+[
+  {
+    "ok": false,
+    "error": "Internal error (reference: 40cd89bb-e7b0-4791-9c27-13bf515cc7c9)",
+    "path": "https://github.com/Pylons/waitress"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f73509d9-c102-4471-94c7-f9afb1b349c5)",
+    "path": "https://github.com/asweigart/pyperclip"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e01d0e40-53aa-425b-9d78-98c18b9901a0)",
+    "path": "https://github.com/cloudpipe/cloudpickle"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8d8c879b-880e-467a-92b6-ca6b5aa3eda4)",
+    "path": "https://github.com/ubernostrum/django-registration"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d6293000-8fe0-4e2c-a1bf-7c23c02a0ef9)",
+    "path": "https://github.com/pytest-dev/pytest-mock"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8c244ce0-866e-46f6-a56c-491b188e3dcf)",
+    "path": "https://github.com/sass/libsass-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f9c7c3e8-714f-411b-9900-b207c303aff5)",
+    "path": "https://github.com/frewsxcv/python-geojson"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a8359f93-d023-4e29-8244-27ca75b6c74f)",
+    "path": "https://github.com/quodlibet/mutagen"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e84f0156-e1f2-450d-91b4-c34065a91d68)",
+    "path": "https://github.com/pytest-dev/pytest-xdist"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5b0f43f8-dc61-498b-8483-af9a7905ad42)",
+    "path": "https://github.com/uiri/toml"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3ff6052f-c522-4c95-a1d5-15abe56a7db4)",
+    "path": "https://github.com/Unidata/netcdf4-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8cca931a-c409-4189-950f-b17feba13e62)",
+    "path": "https://github.com/pytest-dev/pluggy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pydot/pydot"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c74bc584-4044-4633-88a3-2467150646e2)",
+    "path": "https://github.com/SethMMorton/natsort"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4e6de449-db14-46e9-90d1-5f58a7db8279)",
+    "path": "https://github.com/vitalk/pytest-flask"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2702b8e0-f2c4-4766-81e8-cbf6e8073b8a)",
+    "path": "https://github.com/PyCQA/astroid"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5b52a350-dba8-458e-9d5a-cc2dc6836f53)",
+    "path": "https://github.com/celery/py-amqp"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d8f5eeba-138e-458b-a6ac-ca66c10cf57d)",
+    "path": "https://github.com/scrapy/cssselect"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8f075e0f-76b9-41bd-86bd-90a4fc70031f)",
+    "path": "https://github.com/agronholm/pythonfutures"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 68f27d09-fd83-46d6-bd19-139dd848b21b)",
+    "path": "https://github.com/untitaker/python-atomicwrites"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e231b2be-ef16-4381-93ec-a8fd6694b689)",
+    "path": "https://github.com/k-bx/python-semver"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a7d881a6-73b7-4728-ac26-d1b7902f82cf)",
+    "path": "https://github.com/python-hyper/hyperlink"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a0d9985a-c805-41d8-8203-f2df450c2e0f)",
+    "path": "https://github.com/codecov/codecov-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d8858991-9732-496f-a523-a35d7c2f645d)",
+    "path": "https://github.com/phihag/ipaddress"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b564356e-f698-4493-aba8-3dd4a755728e)",
+    "path": "https://github.com/jaraco/configparser"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d808da8e-8e88-41b5-a045-58143c71db5d)",
+    "path": "https://bitbucket.org/ned/coveragepy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1c6cdbb6-b65e-4b0c-8f24-589717c77f02)",
+    "path": "https://github.com/pypa/pipenv"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 42238ab9-e9fb-4510-b879-e6f63b0fd44a)",
+    "path": "https://github.com/dmlc/xgboost"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: eba4700e-5c92-4f2f-a0c3-876ebf9c2dea)",
+    "path": "https://github.com/channelcat/sanic"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 49,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/kroitor/ccxt"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d3af95cf-20f8-42bf-b2da-c90f184d7253)",
+    "path": "https://github.com/davisking/dlib"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7e45843f-f2f6-41bd-a7db-7667d665e210)",
+    "path": "https://github.com/google/brotli"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 41374671-69b2-4b19-8b1a-e73ffcd8d64f)",
+    "path": "https://github.com/mahmoud/boltons"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 42da1468-14cd-41ac-8c26-c3a6effb0477)",
+    "path": "https://github.com/buildbot/buildbot"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 53,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/Kinto/kinto"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: aa10c558-6b8c-48a7-9850-4bef6b35673b)",
+    "path": "https://github.com/django/channels"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c174c404-89fa-4449-bbee-17a4434030d4)",
+    "path": "https://github.com/graphql-python/graphene"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/django-tastypie/django-tastypie"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: df180efb-a845-4201-856e-29d7e74fa1fe)",
+    "path": "https://github.com/kennethreitz/grequests"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/spulec/moto"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-02-11T14:25:55.614606Z",
+        "credit": [
+          "Carlton Gibson"
+        ],
+        "cvssScore": 5.9,
+        "description": "## Overview\r\n\r\n[django](https://pypi.org/project/Django/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Thanks for checking it out.\r\n\r\n\r\nAffected versions of this package are vulnerable to Uncontrolled Memory Consumption.\r\nIf `django.utils.numberformat.format()` that is used by `contrib.admin` as well as the the `floatformat`, `filesizeformat`, and `intcomma` templates filters -  received a Decimal with a large number of digits or a large exponent, it could lead to significant memory usage due to a call to `{:f}'.format()`.\r\n\r\n## Remediation\r\n\r\nUpgrade `django` to version 1.11.19, 2.0.11, 2.1.6 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Google forums Issue](https://groups.google.com/forum/#!topic/django-announce/WTwEAprR0IQ)\r\n\r\n- [Django Security Releases Notes](https://www.djangoproject.com/weblog/2019/feb/11/security-releases/)\r\n\r\n- [OSS-Security](https://www.openwall.com/lists/oss-security/2019/02/11/1)\r\n\r\n- [GitHub Commit](https://github.com/django/django/commit/40cd19055773705301c3428ed5e08a036d2091f3)\r\n",
+        "disclosureTime": "2019-02-11T13:15:37Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-173679",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6975"
+          ],
+          "CWE": [
+            "CWE-789"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-02-11T15:21:13.802169Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2019-02-11T13:15:37Z",
+        "references": [
+          {
+            "title": "Google forums Issue",
+            "url": "https://groups.google.com/forum/#!topic/django-announce/WTwEAprR0IQ"
+          },
+          {
+            "title": "Django Security Releases Notes",
+            "url": "https://www.djangoproject.com/weblog/2019/feb/11/security-releases/"
+          },
+          {
+            "title": "OSS-Security",
+            "url": "https://www.openwall.com/lists/oss-security/2019/02/11/1"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/django/django/commit/40cd19055773705301c3428ed5e08a036d2091f3"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[1.11.0,1.11.19)",
+            "[2.0.0,2.0.11)",
+            "[2.1.0,2.1.6)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Uncontrolled Memory Consumption",
+        "from": [
+          "marcgibbons/django-rest-swagger@marcgibbons/django-rest-swagger",
+          "django@2.1.3"
+        ],
+        "upgradePath": [],
+        "version": "2.1.3",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+        "alternativeIds": [],
+        "creationTime": "2019-01-08T15:45:12.317736Z",
+        "credit": [
+          "Jerbi Nessim"
+        ],
+        "cvssScore": 4.3,
+        "description": "## Overview\r\n\r\n[django](https://pypi.org/project/Django/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Thanks for checking it out.\r\n\r\n\r\nAffected versions of this package are vulnerable to Content Spoofing.\r\nThe default 404 page did not properly handle user-supplied data, an attacker could supply content to the web application, typically via a parameter value, that is reflected back to the user. This presented the user with a modified page under the context of the trusted domain.\r\n\r\n## Remediation\r\n\r\nUpgrade `django` to version 1.11.18, 2.0.10, 2.1.5 or higher.\r\n\r\n\r\n## References\r\n\r\n- [RedHat Bugzilla Bug](https://bugzilla.redhat.com/show_bug.cgi?id=1663722)\r\n\r\n- [GitHub Commit](https://github.com/django/django/commit/1ecc0a395)\r\n\r\n- [Django Project Security Blog](https://www.djangoproject.com/weblog/2019/jan/04/security-releases/)\r\n",
+        "disclosureTime": "2019-01-04T22:34:17Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-72888",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-3498"
+          ],
+          "CWE": [
+            "CWE-148"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-08T16:10:39.807334Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2019-01-08T16:10:39.792267Z",
+        "references": [
+          {
+            "title": "RedHat Bugzilla Bug",
+            "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1663722"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/django/django/commit/1ecc0a395"
+          },
+          {
+            "title": "Django Project Security Blog",
+            "url": "https://www.djangoproject.com/weblog/2019/jan/04/security-releases/"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.11.18)",
+            "[2.0.0, 2.0.10)",
+            "[2.1.0, 2.1.5)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Content Spoofing",
+        "from": [
+          "marcgibbons/django-rest-swagger@marcgibbons/django-rest-swagger",
+          "django@2.1.3"
+        ],
+        "upgradePath": [],
+        "version": "2.1.3",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 56,
+    "severityMap": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "path": "https://github.com/marcgibbons/django-rest-swagger"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 58eddf78-f4ff-4f52-8cf3-1a5da398f1f0)",
+    "path": "https://github.com/googleapis/google-cloud-python"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/django-guardian/django-guardian"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 23,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/dyve/django-bootstrap3"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2705081f-d6f2-48a4-979a-9ebc6ea8dfe3)",
+    "path": "https://github.com/cobrateam/splinter"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/django-mptt/django-mptt"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 004bbd35-fc20-4130-b385-1704a95a71f9)",
+    "path": "https://github.com/mstamy2/PyPDF2"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4027834f-f13c-463b-ac2f-8ff2c48d1f3f)",
+    "path": "https://github.com/agronholm/apscheduler"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b0775d4f-63b9-4f81-8134-2bdbe0f4a960)",
+    "path": "https://github.com/seb-m/pyinotify"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/gabrielfalcao/httpretty"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1c7758c3-d9ca-400f-bf44-dbbd928413dd)",
+    "path": "https://github.com/pyeve/cerberus"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 049ff957-9bf2-456d-85db-c8466de39e41)",
+    "path": "https://github.com/jazzband/django-oauth-toolkit"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/goldsmith/Wikipedia"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 5,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/litl/rauth"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jd/tenacity"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 605bcef3-137f-4eab-bc83-3ad41208b7bd)",
+    "path": "https://github.com/gawel/pyquery"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 5,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/FactoryBoy/factory_boy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: eb7197d6-34c2-4db7-9bbd-e7c6f62045ec)",
+    "path": "https://github.com/PyMySQL/mysqlclient-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 229cb903-03f6-4511-8511-4ea9803f9e13)",
+    "path": "https://github.com/alecthomas/voluptuous"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 5,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/os/slacker"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:04:29.112428Z",
+        "credit": [
+          "Max Justicz"
+        ],
+        "cvssScore": 8.1,
+        "description": "## Overview\r\n\r\n[tar](https://www.npmjs.com/package/tar) is a full-featured Tar for Node.js.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary File Overwrite.\r\nExtracting tarballs containing a hard-link to a file that already exists in the system, and a file that matches the hard-link may overwrite system's files with the contents of the extracted file.\r\n\r\n## Remediation\r\n\r\nUpgrade `tar` to version 4.4.2 or higher.\r\n\r\n\r\n## References\r\n\r\n- [HackerOne Report](https://hackerone.com/reports/344595)\r\n\r\n- [NPM Security Advisory](https://www.npmjs.com/advisories/803)\r\n",
+        "disclosureTime": "2019-04-04T03:31:56Z",
+        "functions": [],
+        "id": "SNYK-JS-TAR-174125",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-59"
+          ],
+          "NSP": [
+            803
+          ]
+        },
+        "language": "js",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.032876Z",
+        "moduleName": "tar",
+        "packageManager": "npm",
+        "packageName": "tar",
+        "patches": [],
+        "publicationTime": "2019-04-07T03:31:56Z",
+        "references": [
+          {
+            "title": "HackerOne Report",
+            "url": "https://hackerone.com/reports/344595"
+          },
+          {
+            "title": "NPM Security Advisory",
+            "url": "https://www.npmjs.com/advisories/803"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.4.2"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary File Overwrite",
+        "from": [
+          "django-pipeline-tests@jazzband/django-pipeline#3cd2f93bb47bf8d34447e13ff691f7027e7b07a2",
+          "node-sass@4.11.0",
+          "node-gyp@3.8.0",
+          "tar@2.2.1"
+        ],
+        "upgradePath": [
+          false,
+          false,
+          false,
+          "tar@4.4.2"
+        ],
+        "version": "2.2.1",
+        "name": "tar",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L/E:P/RL:O/RC:C",
+        "alternativeIds": [
+          "SNYK-JS-BRACES-10900"
+        ],
+        "creationTime": "2018-02-19T14:36:50Z",
+        "credit": [
+          "Jamie Davis"
+        ],
+        "cvssScore": 3.7,
+        "description": "## Overview\r\n[`braces`](https://www.npmjs.com/package/braces) is a Bash-like brace expansion, implemented in JavaScript.\r\n\r\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks. It used a regular expression (`^\\{(,+(?:(\\{,+\\})*),*|,*(?:(\\{,+\\})*),+)\\}`) in order to detects empty braces. This can cause an impact of about 10 seconds matching time for data 50K characters long.\r\n\r\n## Disclosure Timeline\r\n* Feb 15th, 2018 - Initial Disclosure to package owner\r\n* Feb 16th, 2018 - Initial Response from package owner\r\n* Feb 18th, 2018 - Fix issued\r\n* Feb 19th, 2018 - Vulnerability published\r\n\r\n## Details\r\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its original and legitimate users. There are many types of DoS attacks, ranging from trying to clog the network pipes to the system by generating a large volume of traffic from many machines (a Distributed Denial of Service - DDoS - attack) to sending crafted requests that cause a system to crash or take a disproportional amount of time to process.\r\n\r\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack. Regular expressions are incredibly powerful, but they aren't very intuitive and can ultimately end up making it easy for attackers to take your site down.\r\n\r\nLet’s take the following regular expression as an example:\r\n```js\r\nregex = /A(B|C+)+D/\r\n```\r\n\r\nThis regular expression accomplishes the following:\r\n- `A` The string must start with the letter 'A'\r\n- `(B|C+)+` The string must then follow the letter A with either the letter 'B' or some number of occurrences of the letter 'C' (the `+` matches one or more times). The `+` at the end of this section states that we can look for one or more matches of this section.\r\n- `D` Finally, we ensure this section of the string ends with a 'D'\r\n\r\nThe expression would match inputs such as `ABBD`, `ABCCCCD`, `ABCBCCCD` and `ACCCCCD`\r\n\r\nIt most cases, it doesn't take very long for a regex engine to find a match:\r\n\r\n```bash\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCD\")'\r\n0.04s user 0.01s system 95% cpu 0.052 total\r\n\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCX\")'\r\n1.79s user 0.02s system 99% cpu 1.812 total\r\n```\r\n\r\nThe entire process of testing it against a 30 characters long string takes around ~52ms. But when given an invalid string, it takes nearly two seconds to complete the test, over ten times as long as it took to test a valid string. The dramatic difference is due to the way regular expressions get evaluated.\r\n\r\nMost Regex engines will work very similarly (with minor differences). The engine will match the first possible way to accept the current character and proceed to the next one. If it then fails to match the next one, it will backtrack and see if there was another way to digest the previous character. If it goes too far down the rabbit hole only to find out the string doesn’t match in the end, and if many characters have multiple valid regex paths, the number of backtracking steps can become very large, resulting in what is known as _catastrophic backtracking_.\r\n\r\nLet's look at how our expression runs into this problem, using a shorter string: \"ACCCX\". While it seems fairly straightforward, there are still four different ways that the engine could match those three C's:\r\n1. CCC\r\n2. CC+C\r\n3. C+CC\r\n4. C+C+C.\r\n\r\nThe engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/debugger) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.\r\n\r\nFrom there, the number of steps the engine must use to validate a string just continues to grow.\r\n\r\n| String | Number of C's | Number of steps |\r\n| -------|-------------:| -----:|\r\n| ACCCX | 3 | 38\r\n| ACCCCX | 4 | 71\r\n| ACCCCCX | 5 | 136\r\n| ACCCCCCCCCCCCCCX | 14 | 65,553\r\n\r\n\r\nBy the time the string includes 14 C's, the engine has to take over 65,000 steps just to see if the string is valid. These extreme situations can cause them to work very slowly (exponentially related to input size, as shown above), allowing an attacker to exploit this and can cause the service to excessively consume CPU, resulting in a Denial of Service.\r\n\r\n## Remediation\r\nUpgrade `braces` to version 2.3.1 or higher.\r\n\r\n## References\r\n- [GitHub Commit](https://github.com/micromatch/braces/commit/abdafb0cae1e0c00f184abbadc692f4eaa98f451)",
+        "disclosureTime": "2018-02-19T20:39:06Z",
+        "functions": [
+          {
+            "functionId": {
+              "className": null,
+              "filePath": "lib/parsers.js",
+              "functionName": "module.exports"
+            },
+            "version": [
+              ">= 2.0.0 <2.3.1"
+            ]
+          }
+        ],
+        "id": "npm:braces:20180219",
+        "identifiers": {
+          "ALTERNATIVE": [
+            "SNYK-JS-BRACES-10900"
+          ],
+          "CVE": [],
+          "CWE": [
+            "CWE-185",
+            "CWE-400"
+          ],
+          "NSP": [
+            786
+          ]
+        },
+        "language": "js",
+        "methods": [
+          {
+            "methodId": {
+              "className": null,
+              "filePath": "lib/parsers.js",
+              "methodName": "module.exports"
+            },
+            "version": [
+              ">= 2.0.0 <2.3.1"
+            ]
+          }
+        ],
+        "modificationTime": "2019-01-10T13:49:05.785001Z",
+        "moduleName": "braces",
+        "packageManager": "npm",
+        "packageName": "braces",
+        "patches": [],
+        "publicationTime": "2018-02-19T16:32:28Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/micromatch/braces/commit/abdafb0cae1e0c00f184abbadc692f4eaa98f451"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<2.3.1"
+          ]
+        },
+        "severity": "low",
+        "title": "Regular Expression Denial of Service (ReDoS)",
+        "from": [
+          "django-pipeline-tests@jazzband/django-pipeline#3cd2f93bb47bf8d34447e13ff691f7027e7b07a2",
+          "babel-cli@6.26.0",
+          "chokidar@1.7.0",
+          "anymatch@1.3.2",
+          "micromatch@2.3.11",
+          "braces@1.8.5"
+        ],
+        "upgradePath": [
+          false,
+          false,
+          "chokidar@2.0.0",
+          "anymatch@2.0.0",
+          "micromatch@3.1.4",
+          "braces@2.3.1"
+        ],
+        "version": "1.8.5",
+        "name": "braces",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 450,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 1
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "path": "https://github.com/jazzband/django-pipeline"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 66f75ddb-f699-40b9-98b9-15e302be5639)",
+    "path": "https://github.com/jazzband/sorl-thumbnail"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1b4c3e35-9532-4f87-a06f-6bdf31886d57)",
+    "path": "https://github.com/kevin1024/vcrpy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 130c07bc-27fe-4a7a-a4dd-ef276783d52c)",
+    "path": "https://github.com/ross/requests-futures"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f1d3f86e-1f0f-48bd-8c4a-1cfa4904af26)",
+    "path": "https://github.com/jazzband/django-widget-tweaks"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: cbf42b0b-a4a0-44e2-b015-279a3adbaefc)",
+    "path": "https://github.com/mvantellingen/zeep"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 9,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/scrapinghub/dateparser"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 0739da9a-b6e1-4cec-9ab5-e5b9b9d7eac2)",
+    "path": "https://github.com/nickstenning/honcho"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 35,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/tobgu/pyrsistent"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f4f91b6f-9bf6-484d-bc9c-4663f394d4ea)",
+    "path": "https://github.com/fritzy/SleekXMPP"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/divio/django-filer"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7421f00c-4b66-4786-a176-b9accbf058e6)",
+    "path": "https://github.com/walac/pyusb"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1cb21dda-70bc-4ced-8089-e4969738810b)",
+    "path": "https://github.com/SmileyChris/easy-thumbnails"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5cc1be6d-1b65-4f94-bea5-d226575fd27d)",
+    "path": "https://github.com/Lawouach/WebSocket-for-Python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: af290189-2956-44c5-bfa9-a6993e214f2f)",
+    "path": "https://github.com/litl/backoff"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a8d38c46-c185-4f98-9bd2-499ff3f430fc)",
+    "path": "https://github.com/dmkoch/django-jsonfield"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d58158ef-0cd7-494b-89f6-1e297769cbdf)",
+    "path": "https://github.com/abseil/abseil-py"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8c5d04d0-fb39-4062-9fdc-451072b67650)",
+    "path": "https://github.com/prometheus/client_python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 597137da-a0af-42cb-99fc-761f60e309d9)",
+    "path": "https://github.com/giampaolo/pyftpdlib"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:04:29.112428Z",
+        "credit": [
+          "Max Justicz"
+        ],
+        "cvssScore": 8.1,
+        "description": "## Overview\r\n\r\n[tar](https://www.npmjs.com/package/tar) is a full-featured Tar for Node.js.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary File Overwrite.\r\nExtracting tarballs containing a hard-link to a file that already exists in the system, and a file that matches the hard-link may overwrite system's files with the contents of the extracted file.\r\n\r\n## Remediation\r\n\r\nUpgrade `tar` to version 4.4.2 or higher.\r\n\r\n\r\n## References\r\n\r\n- [HackerOne Report](https://hackerone.com/reports/344595)\r\n\r\n- [NPM Security Advisory](https://www.npmjs.com/advisories/803)\r\n",
+        "disclosureTime": "2019-04-04T03:31:56Z",
+        "functions": [],
+        "id": "SNYK-JS-TAR-174125",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-59"
+          ],
+          "NSP": [
+            803
+          ]
+        },
+        "language": "js",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.032876Z",
+        "moduleName": "tar",
+        "packageManager": "npm",
+        "packageName": "tar",
+        "patches": [],
+        "publicationTime": "2019-04-07T03:31:56Z",
+        "references": [
+          {
+            "title": "HackerOne Report",
+            "url": "https://hackerone.com/reports/344595"
+          },
+          {
+            "title": "NPM Security Advisory",
+            "url": "https://www.npmjs.com/advisories/803"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.4.2"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary File Overwrite",
+        "from": [
+          "python-jira@pycontribs/jira",
+          "npm@6.9.0",
+          "node-gyp@3.8.0",
+          "tar@2.2.1"
+        ],
+        "upgradePath": [
+          false,
+          false,
+          false,
+          "tar@4.4.2"
+        ],
+        "version": "2.2.1",
+        "name": "tar",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:04:29.112428Z",
+        "credit": [
+          "Max Justicz"
+        ],
+        "cvssScore": 8.1,
+        "description": "## Overview\r\n\r\n[tar](https://www.npmjs.com/package/tar) is a full-featured Tar for Node.js.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary File Overwrite.\r\nExtracting tarballs containing a hard-link to a file that already exists in the system, and a file that matches the hard-link may overwrite system's files with the contents of the extracted file.\r\n\r\n## Remediation\r\n\r\nUpgrade `tar` to version 4.4.2 or higher.\r\n\r\n\r\n## References\r\n\r\n- [HackerOne Report](https://hackerone.com/reports/344595)\r\n\r\n- [NPM Security Advisory](https://www.npmjs.com/advisories/803)\r\n",
+        "disclosureTime": "2019-04-04T03:31:56Z",
+        "functions": [],
+        "id": "SNYK-JS-TAR-174125",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-59"
+          ],
+          "NSP": [
+            803
+          ]
+        },
+        "language": "js",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.032876Z",
+        "moduleName": "tar",
+        "packageManager": "npm",
+        "packageName": "tar",
+        "patches": [],
+        "publicationTime": "2019-04-07T03:31:56Z",
+        "references": [
+          {
+            "title": "HackerOne Report",
+            "url": "https://hackerone.com/reports/344595"
+          },
+          {
+            "title": "NPM Security Advisory",
+            "url": "https://www.npmjs.com/advisories/803"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.4.2"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary File Overwrite",
+        "from": [
+          "python-jira@pycontribs/jira",
+          "npm@6.9.0",
+          "npm-lifecycle@2.1.0",
+          "node-gyp@3.8.0",
+          "tar@2.2.1"
+        ],
+        "upgradePath": [
+          false,
+          false,
+          false,
+          false,
+          "tar@4.4.2"
+        ],
+        "version": "2.2.1",
+        "name": "tar",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:04:29.112428Z",
+        "credit": [
+          "Max Justicz"
+        ],
+        "cvssScore": 8.1,
+        "description": "## Overview\r\n\r\n[tar](https://www.npmjs.com/package/tar) is a full-featured Tar for Node.js.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary File Overwrite.\r\nExtracting tarballs containing a hard-link to a file that already exists in the system, and a file that matches the hard-link may overwrite system's files with the contents of the extracted file.\r\n\r\n## Remediation\r\n\r\nUpgrade `tar` to version 4.4.2 or higher.\r\n\r\n\r\n## References\r\n\r\n- [HackerOne Report](https://hackerone.com/reports/344595)\r\n\r\n- [NPM Security Advisory](https://www.npmjs.com/advisories/803)\r\n",
+        "disclosureTime": "2019-04-04T03:31:56Z",
+        "functions": [],
+        "id": "SNYK-JS-TAR-174125",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-59"
+          ],
+          "NSP": [
+            803
+          ]
+        },
+        "language": "js",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.032876Z",
+        "moduleName": "tar",
+        "packageManager": "npm",
+        "packageName": "tar",
+        "patches": [],
+        "publicationTime": "2019-04-07T03:31:56Z",
+        "references": [
+          {
+            "title": "HackerOne Report",
+            "url": "https://hackerone.com/reports/344595"
+          },
+          {
+            "title": "NPM Security Advisory",
+            "url": "https://www.npmjs.com/advisories/803"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.4.2"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary File Overwrite",
+        "from": [
+          "python-jira@pycontribs/jira",
+          "npm@6.9.0",
+          "libcipm@3.0.3",
+          "npm-lifecycle@2.1.0",
+          "node-gyp@3.8.0",
+          "tar@2.2.1"
+        ],
+        "upgradePath": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          "tar@4.4.2"
+        ],
+        "version": "2.2.1",
+        "name": "tar",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:04:29.112428Z",
+        "credit": [
+          "Max Justicz"
+        ],
+        "cvssScore": 8.1,
+        "description": "## Overview\r\n\r\n[tar](https://www.npmjs.com/package/tar) is a full-featured Tar for Node.js.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary File Overwrite.\r\nExtracting tarballs containing a hard-link to a file that already exists in the system, and a file that matches the hard-link may overwrite system's files with the contents of the extracted file.\r\n\r\n## Remediation\r\n\r\nUpgrade `tar` to version 4.4.2 or higher.\r\n\r\n\r\n## References\r\n\r\n- [HackerOne Report](https://hackerone.com/reports/344595)\r\n\r\n- [NPM Security Advisory](https://www.npmjs.com/advisories/803)\r\n",
+        "disclosureTime": "2019-04-04T03:31:56Z",
+        "functions": [],
+        "id": "SNYK-JS-TAR-174125",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-59"
+          ],
+          "NSP": [
+            803
+          ]
+        },
+        "language": "js",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.032876Z",
+        "moduleName": "tar",
+        "packageManager": "npm",
+        "packageName": "tar",
+        "patches": [],
+        "publicationTime": "2019-04-07T03:31:56Z",
+        "references": [
+          {
+            "title": "HackerOne Report",
+            "url": "https://hackerone.com/reports/344595"
+          },
+          {
+            "title": "NPM Security Advisory",
+            "url": "https://www.npmjs.com/advisories/803"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.4.2"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary File Overwrite",
+        "from": [
+          "python-jira@pycontribs/jira",
+          "npm@6.9.0",
+          "libnpm@2.0.1",
+          "npm-lifecycle@2.1.0",
+          "node-gyp@3.8.0",
+          "tar@2.2.1"
+        ],
+        "upgradePath": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          "tar@4.4.2"
+        ],
+        "version": "2.2.1",
+        "name": "tar",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "alternativeIds": [
+          "SNYK-JS-MEM-11138"
+        ],
+        "creationTime": "2018-01-17T18:19:13Z",
+        "credit": [
+          "juancampa"
+        ],
+        "cvssScore": 5.1,
+        "description": "## Overview\r\n \r\n[mem](https://www.npmjs.com/package/mem) is an optimization used to speed up consecutive function calls by caching the result of calls with identical input.\r\n\r\n\r\nAffected versions of this package are vulnerable to Denial of Service (DoS).\r\nOld results were deleted from the cache and could cause a memory leak.\r\n\r\n## details\r\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its intended and legitimate users.\r\n\r\nUnlike other vulnerabilities, DoS attacks usually do not aim at breaching security. Rather, they are focused on making websites and services unavailable to genuine users resulting in downtime.\r\n\r\nOne popular Denial of Service vulnerability is DDoS (a Distributed Denial of Service), an attack that attempts to clog network pipes to the system by generating a large volume of traffic from many machines.\r\n\r\nWhen it comes to open source libraries, DoS vulnerabilities allow attackers to trigger such a crash or crippling of the service by using a flaw either in the application code or from the use of open source libraries.\r\n\r\nTwo common types of DoS vulnerabilities:\r\n\r\n* High CPU/Memory Consumption- An attacker sending crafted requests that could cause the system to take a disproportionate amount of time to process. For example, [commons-fileupload:commons-fileupload](SNYK-JAVA-COMMONSFILEUPLOAD-30082).\r\n\r\n* Crash - An attacker sending crafted requests that could cause the system to crash. For Example,  [npm `ws` package](npm:ws:20171108)\r\n\r\n## Remediation\r\n\r\nUpgrade mem to version 4.0.0 or higher.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/sindresorhus/mem/issues/14)\r\n\r\n- [Github Commit](https://github.com/sindresorhus/mem/commit/da4e4398cb27b602de3bd55f746efa9b4a31702b)\r\n",
+        "disclosureTime": "2018-01-17T18:19:13Z",
+        "functions": [
+          {
+            "functionId": {
+              "className": null,
+              "filePath": "index.js",
+              "functionName": "module.exports.memoized"
+            },
+            "version": [
+              "<=1.1.0"
+            ]
+          },
+          {
+            "functionId": {
+              "className": null,
+              "filePath": "index.js",
+              "functionName": "module.exports.memoized.setData"
+            },
+            "version": [
+              ">1.1.0<4.0.0"
+            ]
+          }
+        ],
+        "id": "npm:mem:20180117",
+        "identifiers": {
+          "ALTERNATIVE": [
+            "SNYK-JS-MEM-11138"
+          ],
+          "CVE": [],
+          "CWE": [
+            "CWE-400"
+          ]
+        },
+        "language": "js",
+        "methods": [
+          {
+            "methodId": {
+              "className": null,
+              "filePath": "index.js",
+              "methodName": "module.exports.memoized"
+            },
+            "version": [
+              "<=1.1.0"
+            ]
+          },
+          {
+            "methodId": {
+              "className": null,
+              "filePath": "index.js",
+              "methodName": "module.exports.memoized.setData"
+            },
+            "version": [
+              ">1.1.0<4.0.0"
+            ]
+          }
+        ],
+        "modificationTime": "2019-02-18T11:51:56.754978Z",
+        "moduleName": "mem",
+        "packageManager": "npm",
+        "packageName": "mem",
+        "patches": [],
+        "publicationTime": "2018-08-29T11:23:09Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/sindresorhus/mem/issues/14"
+          },
+          {
+            "title": "Github Commit",
+            "url": "https://github.com/sindresorhus/mem/commit/da4e4398cb27b602de3bd55f746efa9b4a31702b"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.0.0"
+          ]
+        },
+        "severity": "medium",
+        "title": "Denial of Service (DoS)",
+        "from": [
+          "python-jira@pycontribs/jira",
+          "npm@6.9.0",
+          "libnpx@10.2.0",
+          "yargs@11.1.0",
+          "os-locale@2.1.0",
+          "mem@1.1.0"
+        ],
+        "upgradePath": [
+          false,
+          false,
+          false,
+          "yargs@12.0.2",
+          "os-locale@3.0.1",
+          "mem@4.0.0"
+        ],
+        "version": "1.1.0",
+        "name": "mem",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 421,
+    "severityMap": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "5 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "path": "https://github.com/pycontribs/jira"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 54,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/django-nose/django-nose"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 21,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/RDFLib/rdflib"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/html5lib/html5lib-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4990c9b1-d096-4543-aeeb-32abc4cdb13a)",
+    "path": "https://github.com/lepture/flask-wtf"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 097e3cf6-aed5-4af5-bb1e-bf5676fcbd27)",
+    "path": "https://github.com/aljosa/django-tinymce"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: df43618e-e985-444e-8aae-aef422881857)",
+    "path": "https://github.com/AnalogJ/lexicon"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a78ce81a-5bdf-462a-91a4-cff0b950af04)",
+    "path": "https://github.com/jdunck/python-unicodecsv"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 711a3443-7162-459d-89ba-db34af508855)",
+    "path": "https://github.com/PyWavelets/pywt"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a371e003-77bd-4d60-933c-26c6e590a062)",
+    "path": "https://github.com/nose-devs/nose2"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ae91b5da-094f-4ba3-8730-11e2b06bdef4)",
+    "path": "https://github.com/madzak/python-json-logger"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 6c2debb4-1aed-4e8e-86ed-dc52319d393c)",
+    "path": "https://github.com/kvesteri/sqlalchemy-utils"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 7,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/klen/pylama"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ed2a5b67-f51f-495b-b878-c7415d798f86)",
+    "path": "https://github.com/django-haystack/pysolr"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/PyCQA/pydocstyle"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/cannatag/ldap3"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/dgilland/pydash"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f1c73784-3094-409c-b670-a384e5bf72f3)",
+    "path": "https://github.com/benhoyt/scandir"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f839d866-0079-4ba1-8732-5699a411ddbe)",
+    "path": "https://github.com/borntyping/python-colorlog"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 11,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/drkjam/netaddr"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a9190845-b66e-42b0-96df-546a5044226d)",
+    "path": "https://github.com/Yelp/bravado"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/xflr6/graphviz"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8883c689-f1cf-4d55-8182-5d096816d946)",
+    "path": "https://github.com/csparpa/pyowm"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pwaller/pyfiglet"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2b4c2455-834f-4cb3-b9dd-74c58524feb2)",
+    "path": "https://github.com/warner/python-ecdsa"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/python-mechanize/mechanize"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 56a99a3a-93ce-4ad2-bfa8-42f05142978d)",
+    "path": "https://github.com/pyproj4/pyproj"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 953afadd-e787-4e08-84be-55434b6b8c32)",
+    "path": "https://github.com/redis/hiredis-py"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "nipy/nibabel@nipy/nibabel#de564598018b086e91887270f72c48a3b346819a",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/nipy/nibabel"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f6e00537-cac4-4d58-bc94-a4e6ff0aa543)",
+    "path": "https://github.com/Infinidat/munch"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 54049417-0273-4fac-a778-d7dabf9f4794)",
+    "path": "https://github.com/celery/billiard"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jquast/blessed"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: de413f38-b117-4ab9-9861-fb0dca0a6f3e)",
+    "path": "https://github.com/ilanschnell/bitarray"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 6,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/openstack-dev/hacking"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3292b5cc-f2a5-4f61-9ea3-58a7a3a1126b)",
+    "path": "https://github.com/jaraco/irc"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4ce95998-fb6f-4048-8f25-38748adb5677)",
+    "path": "https://github.com/DiffSK/configobj"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a6b144ea-59e6-4c67-878e-af5f4b775be0)",
+    "path": "https://github.com/bcj/AttrDict"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5a78ca4d-4983-4faf-9459-9a2adbe37571)",
+    "path": "https://github.com/foutaise/texttable"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 81383e78-5f84-4da2-849c-492f5b05c2b0)",
+    "path": "https://github.com/davidhalter/parso"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f18375f0-7c0b-40af-ac6f-3bddfb16f9e5)",
+    "path": "https://github.com/Simplistix/testfixtures"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/rbarrois/python-semanticversion"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 61169bf4-f9dd-469c-879a-a1dd7ccd30e4)",
+    "path": "https://github.com/kiorky/croniter"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 35fb44e9-2be7-4231-835b-7c2b187ec4ce)",
+    "path": "https://github.com/gintas/django-picklefield"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 20,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/AzureAD/azure-activedirectory-library-for-python"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/etingof/pyasn1"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: aec224fd-a0e1-4e41-8cf3-56ebf80dfbf2)",
+    "path": "https://github.com/workhorsy/py-cpuinfo"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: df8acc6b-88dc-47cd-9c6e-3d9266b8ba18)",
+    "path": "https://github.com/regebro/tzlocal"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 665b3690-164f-4f32-81be-8d632e3d5a9c)",
+    "path": "https://github.com/keis/base58"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8a65fbcd-e18f-4611-afb8-757e0b3d270e)",
+    "path": "https://github.com/kjd/idna"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b97548fc-55c4-4155-9dcf-d4000ca305cf)",
+    "path": "https://github.com/celery/vine"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8f7d76bd-3941-4034-bf82-a755cb61a889)",
+    "path": "https://github.com/cpburnz/python-path-specification"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 18992fe1-8338-4aa9-86dd-d1f2a5254cc1)",
+    "path": "https://github.com/pytest-dev/pytest-runner"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 910b9e55-4523-4c8d-a126-11894513e152)",
+    "path": "https://github.com/sanpingz/mysql-connector"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: bdb1dea9-92a3-40ef-92e0-c785adeb3dd1)",
+    "path": "https://github.com/crossbario/txaio"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/adafruit/Adafruit_Blinka"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5c760db5-7c2a-4cdf-b7bd-6a5d8232de20)",
+    "path": "https://bitbucket.org/birkenfeld/pygments-main"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 04bc4b97-ab1d-459a-b8c5-1e20929af5d9)",
+    "path": "https://bitbucket.org/zzzeek/alembic"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 34a1c10d-ec56-4332-aa7e-ca437ccc9611)",
+    "path": "https://github.com/fxsjy/jieba"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7d38f364-aea7-463a-b39c-44c0b7f0d38b)",
+    "path": "https://github.com/apache/incubator-mxnet"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7468210a-61e9-4cb4-9289-05ba00192436)",
+    "path": "https://github.com/fastai/fastai"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 14031207-2eec-4388-b2f2-be572bf45340)",
+    "path": "https://github.com/apache/incubator-airflow"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2785c062-9f0b-4d24-8e0c-5b4b0129f7d0)",
+    "path": "https://github.com/ambv/black"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: bc1c5281-716c-4485-99d2-ea40e5b9c808)",
+    "path": "https://github.com/Microsoft/LightGBM"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jupyter/jupyterlab"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 28,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/codelucas/newspaper"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 38e98d68-cf67-4249-afbb-0e73e4acb047)",
+    "path": "https://github.com/onnx/onnx"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 05c4992f-d235-4b6a-83ee-782f3e2f1c52)",
+    "path": "https://github.com/MagicStack/uvloop"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2f1b2207-0cab-46d8-bf4e-c08bb6998f54)",
+    "path": "https://github.com/timothycrosley/hug"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/chenjiandongx/pyecharts"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f734ae1b-a6d3-4a35-a652-ddb9305f40df)",
+    "path": "https://github.com/bulletphysics/bullet3"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: aa403e5d-b3c8-42b4-81fa-90b052936770)",
+    "path": "https://github.com/spyder-ide/spyder"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ff60b2eb-8b3b-4374-bd2f-8df1fd99e03b)",
+    "path": "https://github.com/tensorflow/tensorboard"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 27,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/dxa4481/truffleHog"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.281000Z",
+        "credit": [
+          "Eric Peterson",
+          "Lin Hua Cheng"
+        ],
+        "cvssScore": 7.5,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Denial of Service (DoS) attacks. When sending multiple requests with unique session keys, the session backends create new empty records in the session storage, which can fill the session store.\r\n\r\n## Details\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its intended and legitimate users.\r\n\r\nUnlike other vulnerabilities, DoS attacks usually do not aim at breaching security. Rather, they are focused on making websites and services unavailable to genuine users resulting in downtime.\r\n\r\nOne popular Denial of Service vulnerability is DDoS (a Distributed Denial of Service), an attack that attempts to clog network pipes to the system by generating a large volume of traffic from many machines.\r\n\r\nWhen it comes to open source libraries, DoS vulnerabilities allow attackers to trigger such a crash or crippling of the service by using a flaw either in the application code or from the use of open source libraries.\r\n\r\nTwo common types of DoS vulnerabilities:\r\n\r\n* High CPU/Memory Consumption- An attacker sending crafted requests that could cause the system to take a disproportionate amount of time to process. For example, [commons-fileupload:commons-fileupload](SNYK-JAVA-COMMONSFILEUPLOAD-30082).\r\n\r\n* Crash - An attacker sending crafted requests that could cause the system to crash. For Example,  [npm `ws` package](npm:ws:20171108)\n\n## Remediation\r\nUpgrade `django` to versions 1.8.3, 1.7.9, 1.4.21 or higher.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2015/jul/08/security-releases/)\r\n- [Redhat Security Advisory](http://rhn.redhat.com/errata/RHSA-2015-1686.html)\r\n- [Oracle Security Bulletin](http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5143)\r\n",
+        "disclosureTime": "2015-07-08T06:51:23.714000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40332",
+        "identifiers": {
+          "CVE": [
+            "CVE-2015-5143"
+          ],
+          "CWE": [
+            "CWE-399"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:47.253977Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2015-07-08T06:51:23.714000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2015/jul/08/security-releases/"
+          },
+          {
+            "title": "Redhat Security Advisory",
+            "url": "http://rhn.redhat.com/errata/RHSA-2015-1686.html"
+          },
+          {
+            "title": "Oracle Security Bulletin",
+            "url": "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5143"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.4.21), [1.5,1.7.9), [1.8,1.8.3)"
+          ]
+        },
+        "severity": "high",
+        "title": "Denial of Service (DoS)",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.283000Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 4.3,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to HTTP Response Splitting attacks due to the use of an incorrect regular expression. It allows newline characters in email messages (to the `EmailValidator`), in URLs (to the `URLValidator`), or other instances. An attacker can leverage this to inject arbitrary headers and conduct HTTP response splitting attacks.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2015/jul/08/security-releases/)\r\n- [Oracle Security Bulletin](http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5144)\r\n",
+        "disclosureTime": "2015-07-08T06:27:41.582000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40333",
+        "identifiers": {
+          "CVE": [
+            "CVE-2015-5144"
+          ],
+          "CWE": [
+            "CWE-113"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:47.256746Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2015-07-08T06:27:41.582000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2015/jul/08/security-releases/"
+          },
+          {
+            "title": "Oracle Security Bulletin",
+            "url": "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5144"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.4.21), [1.5,1.7.9), [1.8,1.8.3)"
+          ]
+        },
+        "severity": "medium",
+        "title": "HTTP Response Splitting",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.291000Z",
+        "credit": [
+          "Lin Hua Cheng"
+        ],
+        "cvssScore": 5.3,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Denial of Service (DoS) attacks. If a large number of requests were made to `contrib.auth.views.logout`, it would trigger the creation of an empty session records, causing high session store consumption.\r\n\r\n## Details\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its intended and legitimate users.\r\n\r\nUnlike other vulnerabilities, DoS attacks usually do not aim at breaching security. Rather, they are focused on making websites and services unavailable to genuine users resulting in downtime.\r\n\r\nOne popular Denial of Service vulnerability is DDoS (a Distributed Denial of Service), an attack that attempts to clog network pipes to the system by generating a large volume of traffic from many machines.\r\n\r\nWhen it comes to open source libraries, DoS vulnerabilities allow attackers to trigger such a crash or crippling of the service by using a flaw either in the application code or from the use of open source libraries.\r\n\r\nTwo common types of DoS vulnerabilities:\r\n\r\n* High CPU/Memory Consumption- An attacker sending crafted requests that could cause the system to take a disproportionate amount of time to process. For example, [commons-fileupload:commons-fileupload](SNYK-JAVA-COMMONSFILEUPLOAD-30082).\r\n\r\n* Crash - An attacker sending crafted requests that could cause the system to crash. For Example,  [npm `ws` package](npm:ws:20171108)\n\n## Remediation\r\nUpgrade `django` to versions 1.8.4, 1.7.0, 1.4.22 or higher.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2015/aug/18/security-releases/)\r\n- [Oracle Security Bulletin](http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html)\r\n- [Redhat Security Advisory](http://rhn.redhat.com/errata/RHSA-2015-1766.html)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5963)\r\n",
+        "disclosureTime": "2015-08-18T05:56:48.932000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40339",
+        "identifiers": {
+          "CVE": [
+            "CVE-2015-5963"
+          ],
+          "CWE": [
+            "CWE-399"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:47.271257Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2015-08-18T05:56:48.932000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2015/aug/18/security-releases/"
+          },
+          {
+            "title": "Oracle Security Bulletin",
+            "url": "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+          },
+          {
+            "title": "Redhat Security Advisory",
+            "url": "http://rhn.redhat.com/errata/RHSA-2015-1766.html"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5963"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.4.22), [1.5,1.7.10), [1.8,1.8.4)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Denial of Service (DoS)",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.292000Z",
+        "credit": [
+          "Lin Hua Cheng"
+        ],
+        "cvssScore": 5.3,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Denial of Service (DoS) attacks. The `contrib.sessions.backends.base.SessionBase.flush` and `cache_db.SessionStore.flush` functions create empty sessions causing session store consumption.\r\n\r\n## Details\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its intended and legitimate users.\r\n\r\nUnlike other vulnerabilities, DoS attacks usually do not aim at breaching security. Rather, they are focused on making websites and services unavailable to genuine users resulting in downtime.\r\n\r\nOne popular Denial of Service vulnerability is DDoS (a Distributed Denial of Service), an attack that attempts to clog network pipes to the system by generating a large volume of traffic from many machines.\r\n\r\nWhen it comes to open source libraries, DoS vulnerabilities allow attackers to trigger such a crash or crippling of the service by using a flaw either in the application code or from the use of open source libraries.\r\n\r\nTwo common types of DoS vulnerabilities:\r\n\r\n* High CPU/Memory Consumption- An attacker sending crafted requests that could cause the system to take a disproportionate amount of time to process. For example, [commons-fileupload:commons-fileupload](SNYK-JAVA-COMMONSFILEUPLOAD-30082).\r\n\r\n* Crash - An attacker sending crafted requests that could cause the system to crash. For Example,  [npm `ws` package](npm:ws:20171108)\n\n## Remediation\r\nUpgrade `django` to versions 1.8.4, 1.7.0, 1.4.22 or higher.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2015/aug/18/security-releases/)\r\n- [Oracle Security Bulletin](http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html)\r\n- [Redhat Security Advisory](http://rhn.redhat.com/errata/RHSA-2015-1766.html)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5964)\r\n",
+        "disclosureTime": "2015-08-18T05:29:38.357000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40340",
+        "identifiers": {
+          "CVE": [
+            "CVE-2015-5964"
+          ],
+          "CWE": [
+            "CWE-399"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:47.273289Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2015-08-18T05:29:38.357000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2015/aug/18/security-releases/"
+          },
+          {
+            "title": "Oracle Security Bulletin",
+            "url": "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+          },
+          {
+            "title": "Redhat Security Advisory",
+            "url": "http://rhn.redhat.com/errata/RHSA-2015-1766.html"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5964"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.4.22), [1.5,1.7.10), [1.8,1.8.4)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Denial of Service (DoS)",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.323000Z",
+        "credit": [
+          "Ryan Butterfield"
+        ],
+        "cvssScore": 5.3,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Information Exposure. It is possible for a user to specify the date format and pass it to the date filter, e.g. `{{ last_updated|date:user_date_format }}`. An attacker could send a settings key instead of a date format (like `SECRET_KEY`), and obtain any secret in the application's settings.\r\n\r\n## Remediation\r\nUpgrade `django` to versions 1.7.11, 1.8.7 or higher. \r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2015/nov/24/security-releases-issued/)\r\n- [Redhat Security Advisory](http://rhn.redhat.com/errata/RHSA-2016-0129.html)\r\n- [GitHub Commit](https://github.com/django/django/commit/316bc3fc9437c5960c24baceb93c73f1939711e4)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-8213)\r\n",
+        "disclosureTime": "2015-11-24T05:24:28.904000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40359",
+        "identifiers": {
+          "CVE": [
+            "CVE-2015-8213"
+          ],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:47.294593Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2015-11-24T05:24:28.904000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2015/nov/24/security-releases-issued/"
+          },
+          {
+            "title": "Redhat Security Advisory",
+            "url": "http://rhn.redhat.com/errata/RHSA-2016-0129.html"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/django/django/commit/316bc3fc9437c5960c24baceb93c73f1939711e4"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-8213"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.7.11), [1.8,1.8.7)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Information Exposure",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.358000Z",
+        "credit": [
+          "Mark Striemer"
+        ],
+        "cvssScore": 7.4,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Cross-site Scripting (XSS). The `utils.http.is_safe_url` function allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks or possibly conduct Cross-site Scripting (XSS) attacks via a URL containing basic authentication. For example, a URL like `http://mysite.example.com\\@attacker.com` would be considered safe if the request's host is `http://mysite.example.com`, but redirecting to this URL sends the user to attacker.com.\r\n\r\n## Details\r\nCross-Site Scripting (XSS) attacks occur when an attacker tricks a user’s browser to execute malicious JavaScript code in the context of a victim’s domain. Such scripts can steal the user’s session cookies for the domain, scrape or modify its content, and perform or modify actions on the user’s behalf, actions typically blocked by the browser’s Same Origin Policy.\r\n\r\nThese attacks are possible by escaping the context of the web application and injecting malicious scripts in an otherwise trusted website. These scripts can introduce additional attributes (say, a \"new\" option in a dropdown list or a new link to a malicious site) and can potentially execute code on the clients side, unbeknown to the victim. This occurs when characters like `<` `>` `\"` `'` are not escaped properly.\r\n\r\nThere are a few types of XSS:\r\n- **Persistent XSS** is an attack in which the malicious code persists into the web app’s database.\r\n- **Reflected XSS** is an which the website echoes back a portion of the request. The attacker needs to trick the user into clicking a malicious link (for instance through a phishing email or malicious JS on another page), which triggers the XSS attack.\r\n- **DOM-based XSS** is an that occurs purely in the browser when client-side JavaScript echoes back a portion of the URL onto the page. DOM-Based XSS is notoriously hard to detect, as the server never gets a chance to see the attack taking place.\n\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2016/mar/01/security-releases)\r\n- [Oracle Security Bulletin](http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html)\r\n- [GitHub Commit](https://github.com/django/django/commit/c5544d289233f501917e25970c03ed444abbd4f0)\r\n- [Redhat Security Advisory](http://rhn.redhat.com/errata/RHSA-2016-0502.html)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2512)\r\n",
+        "disclosureTime": "2016-03-01T02:24:48.911000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40382",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-2512"
+          ],
+          "CWE": [
+            "CWE-79"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:47.346179Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2016-03-01T02:24:48.911000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2016/mar/01/security-releases"
+          },
+          {
+            "title": "Oracle Security Bulletin",
+            "url": "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/django/django/commit/c5544d289233f501917e25970c03ed444abbd4f0"
+          },
+          {
+            "title": "Redhat Security Advisory",
+            "url": "http://rhn.redhat.com/errata/RHSA-2016-0502.html"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2512"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.8.10), [1.9,1.9.3)"
+          ]
+        },
+        "severity": "high",
+        "title": "Cross-site Scripting (XSS)",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.360000Z",
+        "credit": [
+          "Sjoerd Job Postmus"
+        ],
+        "cvssScore": 3.1,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Timing attacks. There is a timing difference between a login request for a user with a password encoded in an older number of iterations and login request for a nonexistent user (which runs the default hasher's default number of iterations). This only affects users who haven't logged in since the iterations were increased in Django 1.6.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2016/mar/01/security-releases/)\r\n- [Redhat Security Advisory](http://rhn.redhat.com/errata/RHSA-2016-0502.html)\r\n- [GitHub Commit](https://github.com/django/django/commit/67b46ba7016da2d259c1ecc7d666d11f5e1cfaab)\r\n- [Oracle Security Bulletin](http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2513)\r\n",
+        "disclosureTime": "2016-03-01T02:48:38.693000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40383",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-2513"
+          ],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:47.348411Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2016-03-01T02:48:38.693000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2016/mar/01/security-releases/"
+          },
+          {
+            "title": "Redhat Security Advisory",
+            "url": "http://rhn.redhat.com/errata/RHSA-2016-0502.html"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/django/django/commit/67b46ba7016da2d259c1ecc7d666d11f5e1cfaab"
+          },
+          {
+            "title": "Oracle Security Bulletin",
+            "url": "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2513"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.8.10), [1.9,1.9.3)"
+          ]
+        },
+        "severity": "low",
+        "title": "Timing Attack",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.390000Z",
+        "credit": [
+          "Paulo Alvarado",
+          "Vulnerability Laboratory"
+        ],
+        "cvssScore": 6.1,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks. The `dismissChangeRelatedObjectPopup` function uses Javascript's `Element.innerHTML` in an unsafe manner. This allows remote attackers to forge content in the admin's add/change popup.\r\n\r\n## Details\r\nCross-Site Scripting (XSS) attacks occur when an attacker tricks a user’s browser to execute malicious JavaScript code in the context of a victim’s domain. Such scripts can steal the user’s session cookies for the domain, scrape or modify its content, and perform or modify actions on the user’s behalf, actions typically blocked by the browser’s Same Origin Policy.\r\n\r\nThese attacks are possible by escaping the context of the web application and injecting malicious scripts in an otherwise trusted website. These scripts can introduce additional attributes (say, a \"new\" option in a dropdown list or a new link to a malicious site) and can potentially execute code on the clients side, unbeknown to the victim. This occurs when characters like `<` `>` `\"` `'` are not escaped properly.\r\n\r\nThere are a few types of XSS:\r\n- **Persistent XSS** is an attack in which the malicious code persists into the web app’s database.\r\n- **Reflected XSS** is an which the website echoes back a portion of the request. The attacker needs to trick the user into clicking a malicious link (for instance through a phishing email or malicious JS on another page), which triggers the XSS attack.\r\n- **DOM-based XSS** is an that occurs purely in the browser when client-side JavaScript echoes back a portion of the URL onto the page. DOM-Based XSS is notoriously hard to detect, as the server never gets a chance to see the attack taking place.\n\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2016/jul/18/security-releases/)\r\n- [Vulnerability Lab Report](http://www.vulnerability-lab.com/get_content.php?id=1869)\r\n- [GitHub Commit 1.9.x](https://github.com/django/django/commit/d03bf6fe4e9bf5b07de62c1a271c4b41a7d3d158)\r\n- [GitHub Commit 1.8.x](https://github.com/django/django/commit/f68e5a99164867ab0e071a936470958ed867479d)\r\n- [Redhat Security Advisory](http://rhn.redhat.com/errata/RHSA-2016-1596.html)\r\n- [Seclists](http://seclists.org/fulldisclosure/2016/Jul/53)\r\n- [Packetsorm Security](http://packetstormsecurity.com/files/137965/Django-3.3.0-Script-Insertion.html)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-6186)\r\n",
+        "disclosureTime": "2016-07-18T09:11:36.641000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40403",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-6186"
+          ],
+          "CWE": [
+            "CWE-79"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-02-06T08:03:07.826465Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2016-07-18T09:11:36.641000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2016/jul/18/security-releases/"
+          },
+          {
+            "title": "Vulnerability Lab Report",
+            "url": "http://www.vulnerability-lab.com/get_content.php?id=1869"
+          },
+          {
+            "title": "GitHub Commit 1.9.x",
+            "url": "https://github.com/django/django/commit/d03bf6fe4e9bf5b07de62c1a271c4b41a7d3d158"
+          },
+          {
+            "title": "GitHub Commit 1.8.x",
+            "url": "https://github.com/django/django/commit/f68e5a99164867ab0e071a936470958ed867479d"
+          },
+          {
+            "title": "Redhat Security Advisory",
+            "url": "http://rhn.redhat.com/errata/RHSA-2016-1596.html"
+          },
+          {
+            "title": "Seclists",
+            "url": "http://seclists.org/fulldisclosure/2016/Jul/53"
+          },
+          {
+            "title": "Packetsorm Security",
+            "url": "http://packetstormsecurity.com/files/137965/Django-3.3.0-Script-Insertion.html"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-6186"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.8.14), [1.9,1.9.8)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Cross-site Scripting (XSS)",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.443000Z",
+        "credit": [
+          "Sergey Bobrov"
+        ],
+        "cvssScore": 7.5,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Cross-site Request Forgery (CSRF) attacks. The cookie parsing code, when used on a site with Google Analytics, may allow remote attackers to set arbitrary cookies leading to a bypass of CSRF protection.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2016/sep/26/security-releases/)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-7401)\r\n",
+        "disclosureTime": "2016-09-26T06:51:07.513000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40434",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-7401"
+          ],
+          "CWE": [
+            "CWE-254"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:09.237730Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2016-09-26T06:51:07.513000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2016/sep/26/security-releases/"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-7401"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.8.15), [1.9,1.9.10)"
+          ]
+        },
+        "severity": "high",
+        "title": "Cross-site Request Forgery (CSRF)",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.453000Z",
+        "credit": [
+          "Marti Raudsepp"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package used a hardcoded password for a temporary database user created when running tests with an Oracle database. This user is usually dropped after the test suite completes, but not when using the `manage.py test --keepdb` option or if the user has an active session. This makes it easier for remote attackers to obtain access to the database.\r\n\r\n## References\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-9013)\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2016/nov/01/security-releases/)\r\n",
+        "disclosureTime": "2016-11-01T02:44:34.747000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40439",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-9013"
+          ],
+          "CWE": [
+            "CWE-259"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:10.443725Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2016-11-01T02:44:34.747000Z",
+        "references": [
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-9013"
+          },
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2016/nov/01/security-releases/"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.8.16), [1.9,1.9.11), [1.10,1.10.3)"
+          ]
+        },
+        "severity": "high",
+        "title": "Use of hardcoded DB password",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.454000Z",
+        "credit": [
+          "Aymeric Augustin"
+        ],
+        "cvssScore": 8.1,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to DNS Rebinding attacks. When `settings.DEBUG` is set to `True`, it fails to validate the HTTP Host header against `settings.ALLOWED_HOSTS` making it possible to manipulate the host header. This is at least cross-site scripting vector, which could be quite serious if developers load a copy of the production database in development or connect to some production services for which there's no development instance. Also, if a project uses a package like the `django-debug-toolbar`, the attacker could also execute arbitrary SQL.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2016/nov/01/security-releases/)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-9014)\r\n",
+        "disclosureTime": "2016-11-02T03:05:23.821000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40440",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-9014"
+          ],
+          "CWE": [
+            "CWE-350"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:11.884819Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2016-11-02T03:05:23.821000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2016/nov/01/security-releases/"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-9014"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.8.16), [1.9,1.9.11), [1.10,1.10.3)"
+          ]
+        },
+        "severity": "high",
+        "title": "DNS Rebinding",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.521000Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6.1,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Open Redirect. It relies on user input in some cases to redirect the user to an \"on success\" URL. The security check for these redirects (namely `django.utils.http.is_safe_url()`) considered some numeric URLs \"safe\" when they shouldn't be, aka an open redirect vulnerability. Also, if a developer relies on `is_safe_url()` to provide safe redirect targets and puts such a URL into a link, they could suffer from an XSS attack.\r\n\r\n## Remediation\r\nUpgrade `django` to version 1.8.18, 1.9.13, 1.10.7 or higher.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2017/apr/04/security-releases/)\r\n- [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-7233)\r\n",
+        "disclosureTime": "2017-04-05T07:22:14.750000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40460",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7233"
+          ],
+          "CWE": [
+            "CWE-601"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:11.459487Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2017-04-05T07:22:14.750000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2017/apr/04/security-releases/"
+          },
+          {
+            "title": "CVE",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-7233"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.8.18), [1.9,1.9.13), [1.10,1.10.7)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Open Redirect",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.523000Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6.1,
+        "description": "## Overview\r\n[`django`](https://pypi.python.org/pypi/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\r\n\r\nAffected versions of this package are vulnerable to Open Redirect. A maliciously crafted URL to a Django site using the `django.views.static.serve()` view could redirect to any other domain.\r\n\r\n## Remediation\r\nUpgrade `django` to version 1.8.18, 1.9.13, 1.10.7 or higher.\r\n\r\n## References\r\n- [Django Vulnerability Description](https://www.djangoproject.com/weblog/2017/apr/04/security-releases/)\r\n- [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-7234)\r\n",
+        "disclosureTime": "2017-04-05T07:42:13.435000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-40461",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7234"
+          ],
+          "CWE": [
+            "CWE-601"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:11.981189Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2017-04-05T07:42:13.435000Z",
+        "references": [
+          {
+            "title": "Django Vulnerability Description",
+            "url": "https://www.djangoproject.com/weblog/2017/apr/04/security-releases/"
+          },
+          {
+            "title": "NVD",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-7234"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.8.18), [1.9,1.9.13), [1.10,1.10.7)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Open Redirect",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "alternativeIds": [],
+        "creationTime": "2018-08-01T00:00:00Z",
+        "credit": [
+          "Andreas Hug"
+        ],
+        "cvssScore": 6.1,
+        "description": "## Overview\n[django](https://pypi.org/project/Django/) is a Web framework that encourages rapid development and clean, pragmatic design.\n\nAffected versions of this package are vulnerable to Open Redirect. \nIf the `django.middleware.common.CommonMiddleware` and the `APPEND_SLASH` setting are both enabled, and if the project has a URL pattern that accepts any path ending in a slash, a malicious user could send a request to a crafted URL of that site that would lead to a redirect to another site.\n\n## Remediation\nUpgrade `django` to versions 1.11.15, 2.0.8, 2.1 or higher.\n\n## References\n- [RedHat Bugzilla Bug](https://bugzilla.redhat.com/show_bug.cgi?id=1609031)\n- [Django Security Release](https://www.djangoproject.com/weblog/2018/aug/01/security-releases/)\n- [GitHub Commit 1.11.x](https://github.com/django/django/commit/a656a681272f8f3734b6eb38e9a88aa0d91806f1)\n- [GitHub Commit 2.0.x](https://github.com/django/django/commit/6fffc3c6d420e44f4029d5643f38d00a39b08525)\n- [GitHub Commit 2.1.x](https://github.com/django/django/commit/c4e5ff7fdb5fce447675e90291fd33fddd052b3c)\n",
+        "disclosureTime": "2018-08-01T00:00:00Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-42178",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-14574"
+          ],
+          "CWE": [
+            "CWE-601"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:48.604854Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2018-08-02T14:43:16.508000Z",
+        "references": [
+          {
+            "title": "RedHat Bugzilla Bug",
+            "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1609031"
+          },
+          {
+            "title": "Django Security Release",
+            "url": "https://www.djangoproject.com/weblog/2018/aug/01/security-releases/"
+          },
+          {
+            "title": "GitHub Commit 1.11.x",
+            "url": "https://github.com/django/django/commit/a656a681272f8f3734b6eb38e9a88aa0d91806f1"
+          },
+          {
+            "title": "GitHub Commit 2.0.x",
+            "url": "https://github.com/django/django/commit/6fffc3c6d420e44f4029d5643f38d00a39b08525"
+          },
+          {
+            "title": "GitHub Commit 2.1.x",
+            "url": "https://github.com/django/django/commit/c4e5ff7fdb5fce447675e90291fd33fddd052b3c"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.11.15), [2.0.0, 2.0.8)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Open Redirect",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+        "alternativeIds": [],
+        "creationTime": "2019-01-08T15:45:12.317736Z",
+        "credit": [
+          "Jerbi Nessim"
+        ],
+        "cvssScore": 4.3,
+        "description": "## Overview\r\n\r\n[django](https://pypi.org/project/Django/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Thanks for checking it out.\r\n\r\n\r\nAffected versions of this package are vulnerable to Content Spoofing.\r\nThe default 404 page did not properly handle user-supplied data, an attacker could supply content to the web application, typically via a parameter value, that is reflected back to the user. This presented the user with a modified page under the context of the trusted domain.\r\n\r\n## Remediation\r\n\r\nUpgrade `django` to version 1.11.18, 2.0.10, 2.1.5 or higher.\r\n\r\n\r\n## References\r\n\r\n- [RedHat Bugzilla Bug](https://bugzilla.redhat.com/show_bug.cgi?id=1663722)\r\n\r\n- [GitHub Commit](https://github.com/django/django/commit/1ecc0a395)\r\n\r\n- [Django Project Security Blog](https://www.djangoproject.com/weblog/2019/jan/04/security-releases/)\r\n",
+        "disclosureTime": "2019-01-04T22:34:17Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-DJANGO-72888",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-3498"
+          ],
+          "CWE": [
+            "CWE-148"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-08T16:10:39.807334Z",
+        "moduleName": "django",
+        "packageManager": "pip",
+        "packageName": "django",
+        "patches": [],
+        "publicationTime": "2019-01-08T16:10:39.792267Z",
+        "references": [
+          {
+            "title": "RedHat Bugzilla Bug",
+            "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1663722"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/django/django/commit/1ecc0a395"
+          },
+          {
+            "title": "Django Project Security Blog",
+            "url": "https://www.djangoproject.com/weblog/2019/jan/04/security-releases/"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.11.18)",
+            "[2.0.0, 2.0.10)",
+            "[2.1.0, 2.1.5)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Content Spoofing",
+        "from": [
+          "koenbok/Cactus@koenbok/Cactus",
+          "django@1.6.11"
+        ],
+        "upgradePath": [],
+        "version": "1.6.11",
+        "name": "django",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 24,
+    "severityMap": {
+      "high": 5,
+      "medium": 9,
+      "low": 1
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "15 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 15,
+    "path": "https://github.com/koenbok/Cactus"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d06567af-cdc2-4938-a6a4-ea30d7cc75ea)",
+    "path": "https://github.com/sdispater/pendulum"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 505a0be8-3071-4c27-8ca4-3f5886678041)",
+    "path": "https://github.com/Uberi/speech_recognition"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 23f45662-2509-4c66-9fc0-45da64bb0cda)",
+    "path": "https://github.com/pre-commit/pre-commit"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a3defb8f-a792-4951-9692-ddbb6214e0d4)",
+    "path": "https://github.com/hhatto/autopep8"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8c0ecbbd-dd02-47a8-b6aa-54710e7025e3)",
+    "path": "https://github.com/mobolic/facebook-sdk"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 91884c2f-d06a-46c4-9c4f-d2316ddec9b6)",
+    "path": "https://github.com/pytoolz/toolz"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/squidfunk/mkdocs-material"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3dfca3d2-5589-4992-95b5-adb66fe8b585)",
+    "path": "https://github.com/kennethreitz/envoy"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-babel@0.12.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-jwt-extended@3.18.0",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-login@0.4.1",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-marshmallow@0.9.0",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-babel@0.12.2",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-mongoengine@0.7.1",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-openid@1.2.5",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-sqlalchemy@2.3.2",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-wtf@0.14.2",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "dpgaspar/flask-appbuilder@dpgaspar/flask-appbuilder#6237336a2b92fa6ba5f7f14dda56c08af6c0a76a",
+          "flask-mongoengine@0.7.1",
+          "flask-wtf@0.14.2",
+          "Flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 62,
+    "severityMap": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "11 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/dpgaspar/flask-appbuilder"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b0abe50e-23a4-4a85-8c45-9880edb6332c)",
+    "path": "https://github.com/schematics/schematics"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 0081cede-4d2f-47f8-ae76-86dd8d14405a)",
+    "path": "https://github.com/zalando/connexion"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4f95799a-1186-47f5-b6b8-93d31197376e)",
+    "path": "https://github.com/Suor/funcy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: aab10ef9-4066-440b-a9ef-f50909a7c6d0)",
+    "path": "https://github.com/mozillazg/python-pinyin"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e3d010ad-417f-4882-ac80-591e618a9d3f)",
+    "path": "https://github.com/twitter/commons"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/keleshev/schema"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 35,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/spulec/freezegun"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d7fbe2f3-f269-478d-85cc-a51e74c10a45)",
+    "path": "https://github.com/fonttools/fonttools"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 29,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/python-openxml/python-docx"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 47b2fab5-a740-403f-86ee-bdf989f3225b)",
+    "path": "https://github.com/behave/behave"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f52603f8-06ee-4662-af0c-b037df537138)",
+    "path": "https://github.com/Bogdanp/dramatiq"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d0bd7eec-745e-4408-8996-e2652f470aec)",
+    "path": "https://github.com/kootenpv/yagmail"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: fa525e18-9dff-4f75-b809-4261be27c495)",
+    "path": "https://github.com/MikeTheWatchGuy/PySimpleGUI"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b381b1d3-93ff-40fe-8ed2-e0766fc124c9)",
+    "path": "https://github.com/Anorov/cloudflare-scrape"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3dd04c01-c892-4e56-8809-fe0e64e837d6)",
+    "path": "https://github.com/pantsbuild/pex"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 38d3a8b0-4157-431c-95de-8847dc78c71c)",
+    "path": "https://github.com/Toblerity/Shapely"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 451dc574-3211-4246-911b-895e6096a2d5)",
+    "path": "https://github.com/jschneier/django-storages"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/mattupstate/flask-security"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 19ba2b5a-f4ad-4e33-b33d-4f33f1f3df23)",
+    "path": "https://github.com/ahupp/python-magic"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/openstack/horizon"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f5f9a632-7941-492e-87a8-d4d37ba32027)",
+    "path": "https://github.com/defunkt/pystache"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 292cf420-e16d-42b4-8da3-6a6dde18847e)",
+    "path": "https://github.com/erezsh/lark"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 74c4389a-390e-435f-afe1-42e9a4e81831)",
+    "path": "https://github.com/ekalinin/nodeenv"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 27237e22-b3f1-4c28-b0fd-25f989d3f5cb)",
+    "path": "https://github.com/john-kurkowski/tldextract"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b314846f-b2c8-49e0-ac90-5b4cffdb3b7a)",
+    "path": "https://github.com/django/daphne"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8919d3c0-5339-4403-850b-4ab61fec69c9)",
+    "path": "https://github.com/peritus/bumpversion"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/sebleier/django-redis-cache"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c2565244-dc7e-4154-9536-a548d4ac172c)",
+    "path": "https://github.com/AndrewIngram/django-extra-views"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 5,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/mrjoes/sockjs-tornado"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3e3f8573-91e0-4a2c-8d7a-18f49a5b040e)",
+    "path": "https://github.com/keras-team/keras-applications"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 41c51e8e-412b-4b09-a3ac-3a6d8fba8d26)",
+    "path": "https://github.com/hgrecco/pint"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: bc99d589-dd2a-4533-a82c-f343d3aa976e)",
+    "path": "https://github.com/mitsuhiko/pluginbase"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b28b4792-91a4-4aee-bf0d-3d5d66d61d5f)",
+    "path": "https://github.com/Knio/dominate"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/riptideio/pymodbus"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2e70b82a-98e6-48f7-82e0-c2cb37931663)",
+    "path": "https://github.com/rq/rq-scheduler"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 408cdf0a-9b15-4f28-a349-005f68633912)",
+    "path": "https://github.com/anymail/django-anymail"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 11,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/python-social-auth/social-app-django"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 823bc370-f6cf-4132-92ac-edcbfb362147)",
+    "path": "https://github.com/erocarrera/pefile"
+  }
+]

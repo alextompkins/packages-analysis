@@ -1,27 +1,29 @@
-async function parseReports(reports) {
-    const stats = {
-        packages: {
-            total: reports.length,
-            safe: 0,
-            unsafe: 0,
-            errors: 0,
-        },
-        numDependencies: 0,
-        vulnerabilities: {
-            high: 0,
-            medium: 0,
-            low: 0,
-        },
-        numVulnerabilities: 0,
-        publicationTime: 0,
-        numDependenciesPerPackage: [],
-        publicationTimes: [],
-    };
-
+function parseReports(reports, currentStats) {
+    const stats = currentStats
+        ? currentStats
+        : {
+            packages: {
+                total: 0,
+                safe: 0,
+                unsafe: 0,
+                errors: 0,
+            },
+            numDependencies: 0,
+            vulnerabilities: {
+                high: 0,
+                medium: 0,
+                low: 0,
+            },
+            numVulnerabilities: 0,
+            publicationTime: 0,
+            numDependenciesPerPackage: [],
+            publicationTimes: [],
+        };
     for (const report of reports) {
         if (report.error) {
             stats.packages.errors++;
         } else {
+            stats.packages.total += 1;
             stats.numDependencies += report.numDependencies;
             stats.numDependenciesPerPackage.push(report.numDependencies);
             if (report.ok) {
@@ -54,33 +56,44 @@ function getMedian(numList) {
     return sortedList[Math.round(sortedList.length / 2)];
 }
 
-const reports = require('./results/npm_top_500');
-parseReports(reports)
-    .then(stats => {
-        console.log({
-            packages: stats.packages,
-            numDependencies: stats.numDependencies,
-            vulnerabilities: stats.vulnerabilities,
-        });
+function parseBatchReports(reportsList) {
+    let result = null;
+    for (const report of reportsList) {
+        result = parseReports(report, result)
+    }
+    return result
+}
 
-        console.log(`Average number of dependencies per package: ${round(stats.numDependencies / stats.packages.total, 2)}`);
-        console.log(`Median number of dependencies per package: ${getMedian(stats.numDependenciesPerPackage)}`);
+const generateReport = (reportsList) => {
+    const stats = parseBatchReports(reportsList);
+    console.log({
+        packages: stats.packages,
+        numDependencies: stats.numDependencies,
+        vulnerabilities: stats.vulnerabilities,
+    });
 
-        console.log(`${round(stats.packages.unsafe / stats.packages.total * 100, 2)}% of packages had vulnerable dependencies.`);
+    console.log(`Average number of dependencies per package: ${round(stats.numDependencies / stats.packages.total, 2)}`);
+    console.log(`Median number of dependencies per package: ${getMedian(stats.numDependenciesPerPackage)}`);
 
-        const totalVulnerabilities = stats.vulnerabilities.high + stats.vulnerabilities.medium + stats.vulnerabilities.low;
-        console.log(`Vulnerabilities:
+    console.log(`${round(stats.packages.unsafe / stats.packages.total * 100, 2)}% of packages had vulnerable dependencies.`);
+
+    const totalVulnerabilities = stats.vulnerabilities.high + stats.vulnerabilities.medium + stats.vulnerabilities.low;
+    console.log(`Vulnerabilities:
         ${round(stats.vulnerabilities.high / totalVulnerabilities * 100, 2)}% high
         ${round(stats.vulnerabilities.medium / totalVulnerabilities * 100, 2)}% medium
         ${round(stats.vulnerabilities.low / totalVulnerabilities * 100, 2)}% low
-        `);
+    `);
 
-        const averageDate = stats.publicationTime / stats.numVulnerabilities;
-        const averageSinceInDays = (Date.now() - averageDate) / (1000 * 60 * 60 * 24);
-        console.log(`Average time since vulnerability publication date: ${round(averageSinceInDays, 0)} days`);
-        const medianSinceInDays = (Date.now() - getMedian(stats.publicationTimes).getTime()) / (1000 * 60 * 60 * 24);
-        console.log(`Median time since vulnerability publication date: ${round(medianSinceInDays, 0)} days`);
-    })
-    .catch(err => {
-        console.error(`ERROR: ${err.message}`);
-    });
+    const averageDate = stats.publicationTime / stats.numVulnerabilities;
+    const averageSinceInDays = (Date.now() - averageDate) / (1000 * 60 * 60 * 24);
+    console.log(`Average time since vulnerability publication date: ${round(averageSinceInDays, 0)} days`);
+    const medianSinceInDays = (Date.now() - getMedian(stats.publicationTimes).getTime()) / (1000 * 60 * 60 * 24);
+    console.log(`Median time since vulnerability publication date: ${round(medianSinceInDays, 0)} days`);
+};
+
+
+const reportsList = [require('./results/pypi_000_200'), require('./results/pypi_200_400'), require('./results/pypi_400_600'), require('./results/pypi_600_800'), require('./results/pypi_800_1000')];
+generateReport(reportsList);
+
+
+

@@ -1,0 +1,2337 @@
+[
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1774ba44-45db-493a-859f-13636f384dae)",
+    "path": "https://github.com/kennethreitz/requests"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/Django/django"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 97125d70-7d2f-4498-a089-7dcc84ab73c5)",
+    "path": "https://github.com/pytest-dev/pytest"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d80c5a12-d354-404e-b366-fbb5624a5393)",
+    "path": "https://github.com/pallets/flask"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4ef33477-d281-426a-a351-ae42744168cf)",
+    "path": "https://github.com/numpy/numpy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: baaea5bd-7830-4108-95f1-dd593f2f3e79)",
+    "path": "https://github.com/zzzeek/sqlalchemy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 40f177b5-403e-4edd-a92d-ecd9587d070f)",
+    "path": "https://github.com/pallets/jinja"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 45,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/python-pillow/Pillow"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7b8e009f-0adb-436e-9d26-099368b00d93)",
+    "path": "https://github.com/boto/boto3"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f400498a-7534-4aa7-bcc9-3f1eb27abfbb)",
+    "path": "https://github.com/benjaminp/six"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a33b02f4-084a-4ca5-8bdb-2a6ccca02ebc)",
+    "path": "https://github.com/mitsuhiko/click"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 10884d88-38b7-439a-ad39-9162cdc53d82)",
+    "path": "https://github.com/scipy/scipy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1c232ec0-f80c-473b-b9ff-2e9f3cbc38a0)",
+    "path": "https://github.com/dateutil/dateutil"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 98e7ab6d-3983-42dd-a5c1-b4bca33f79e4)",
+    "path": "https://github.com/scikit-learn/scikit-learn"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 49e05237-ec9f-4119-b87f-bc82a488ea4e)",
+    "path": "https://github.com/tornadoweb/tornado"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ea5b0bed-d93c-4987-a405-6e999c654f81)",
+    "path": "https://github.com/SeleniumHQ/selenium"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/tomchristie/django-rest-framework"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3a72ef00-be3b-462e-9c2e-ebda8a4c6922)",
+    "path": "https://github.com/ipython/ipython"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: cb5e341f-3306-4587-9fd7-c6ee233002c1)",
+    "path": "https://github.com/celery/celery"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9ddbf1fb-874e-4a56-9c58-ed35db1f44c2)",
+    "path": "https://github.com/fabric/fabric"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 30e1651b-04fa-4bfb-a027-64c9ce55e0d4)",
+    "path": "https://github.com/matplotlib/matplotlib"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 924b6173-e05b-47e8-96a9-7bf03d0c7967)",
+    "path": "https://github.com/aio-libs/aiohttp"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-04-13T12:32:00Z",
+        "credit": [
+          "Jakub Wilk"
+        ],
+        "cvssScore": 5.3,
+        "description": "## Overview\r\n[`requests`](https://pypi.python.org/pypi/requests) is a Python HTTP for Humans.\r\n\r\nAffected versions of this package are vulnerable to Information Exposure. Remote servers may obtain a netrc password by reading the Authorization header in a redirected request.\r\n\r\n## Remediation\r\nUpgrade to version `2.3.0` or greater.\r\n\r\n## References\r\n- [Redhat Bugzilla](https://bugzilla.redhat.com/CVE-2014-1829)\r\n- [GitHub Issue](https://github.com/kennethreitz/requests/issues/1885)\r\n- [GitHub Commit](https://github.com/kennethreitz/requests/commit/f1893c835570d72823c970fbd6e0e42c13b1f0f2)\r\n",
+        "disclosureTime": "2013-12-25T12:32:00Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-REQUESTS-40030",
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-1829"
+          ],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-20T10:10:08.907251Z",
+        "moduleName": "requests",
+        "packageManager": "pip",
+        "packageName": "requests",
+        "patches": [],
+        "publicationTime": "2013-12-25T12:32:00Z",
+        "references": [
+          {
+            "title": "Redhat Bugzilla",
+            "url": "https://bugzilla.redhat.com/CVE-2014-1829"
+          },
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/kennethreitz/requests/issues/1885"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/kennethreitz/requests/commit/f1893c835570d72823c970fbd6e0e42c13b1f0f2"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.3.0)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Information Exposure",
+        "from": [
+          "boto/boto@boto/boto#91ba037e54ef521c379263b0ac769c66182527d7",
+          "requests@2.0.1"
+        ],
+        "upgradePath": [],
+        "version": "2.0.1",
+        "name": "requests",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-04-13T12:32:01Z",
+        "credit": [
+          "Jakub Wilk"
+        ],
+        "cvssScore": 5.3,
+        "description": "## Overview\r\n[`requests`](https://pypi.python.org/pypi/requests) is a Python HTTP for Humans.\r\n\r\nAffected versions of this package are vulnerable to Information Disclosure attacks. Remote servers may obtain sensitive information by reading the `Proxy-Authorization` header in a redirected request.\r\n\r\n## Remediation\r\nUpgrade to version `2.3.0` or greater.\r\n\r\n## References\r\n- [Redhat Bugzilla](https://bugzilla.redhat.com/CVE-2014-1830)\r\n- [GitHub Issue](https://github.com/kennethreitz/requests/issues/1885#issuecomment-33793651)\r\n- [GitHub Commit](https://github.com/kennethreitz/requests/commit/4d8cb3244e8e4f84b250c10a48e025f9a8bf6137)\r\n",
+        "disclosureTime": "2013-12-25T12:32:01Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-REQUESTS-40031",
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-1830"
+          ],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-20T10:10:09.543338Z",
+        "moduleName": "requests",
+        "packageManager": "pip",
+        "packageName": "requests",
+        "patches": [],
+        "publicationTime": "2013-12-25T12:32:01Z",
+        "references": [
+          {
+            "title": "Redhat Bugzilla",
+            "url": "https://bugzilla.redhat.com/CVE-2014-1830"
+          },
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/kennethreitz/requests/issues/1885#issuecomment-33793651"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/kennethreitz/requests/commit/4d8cb3244e8e4f84b250c10a48e025f9a8bf6137"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.3.0)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Information Disclosure",
+        "from": [
+          "boto/boto@boto/boto#91ba037e54ef521c379263b0ac769c66182527d7",
+          "requests@2.0.1"
+        ],
+        "upgradePath": [],
+        "version": "2.0.1",
+        "name": "requests",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.535000Z",
+        "credit": [
+          "Scott Geary"
+        ],
+        "cvssScore": 5.6,
+        "description": "## Overview\r\n[`requests`](https://pypi.python.org/pypi/requests) is a Python HTTP for Humans.\r\n\r\nAffected versions of this package are vulnerable to HTTPoxy attacks. The Python `CGIHandler` class did not properly protect against the `HTTP_PROXY` variable. A remote attacker could possibly use this flaw to redirect HTTP requests performed by a Python CGI script to an attacker-controlled proxy via a malicious HTTP request.\r\n\r\n## Remediation\r\nAccording to the vendor, setting the `Session.trust_env` to False completely mitigates this risk.\r\n\r\n## References\r\n- [GitHub Issue](https://github.com/requests/requests/issues/3422)\r\n- [HTTPoxy Documentation](https://httpoxy.org/)\r\n",
+        "disclosureTime": "2016-07-17T00:12:34.435000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-REQUESTS-40470",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-601"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:12.045254Z",
+        "moduleName": "requests",
+        "packageManager": "pip",
+        "packageName": "requests",
+        "patches": [],
+        "publicationTime": "2016-07-17T00:12:34.435000Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/requests/requests/issues/3422"
+          },
+          {
+            "title": "HTTPoxy Documentation",
+            "url": "https://httpoxy.org/"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[1.2.0,2.10.0]"
+          ]
+        },
+        "severity": "high",
+        "title": "HTTP Request Redirection",
+        "from": [
+          "boto/boto@boto/boto#91ba037e54ef521c379263b0ac769c66182527d7",
+          "requests@2.0.1"
+        ],
+        "upgradePath": [],
+        "version": "2.0.1",
+        "name": "requests",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2018-10-10T08:41:56.309157Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\n[Requests](https://pypi.org/project/requests/) is a  _Non-GMO_ HTTP library for Python\r\n\r\nAffected versions of this package are vulnerable to Information Exposure.\r\nUpon receiving a same-hostname https-to-http redirect, it sends the HTTP Authorization header to an http URI. This makes it easier for remote attackers to discover credentials by sniffing the network.\r\n\r\n## Remediation\r\nUpgrade `request` to version 2.20 or higher.\n\n## References\n- [GitHub Commit](https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff)\n- [GitHub Issue](https://github.com/requests/requests/issues/4716)\n- [GitHub PR](https://github.com/requests/requests/pull/4718)\n",
+        "disclosureTime": "2018-10-09T17:16:32Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-REQUESTS-72435",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-18074"
+          ],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:11.991258Z",
+        "moduleName": "requests",
+        "packageManager": "pip",
+        "packageName": "requests",
+        "patches": [],
+        "publicationTime": "2018-10-10T11:23:44Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff"
+          },
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/requests/requests/issues/4716"
+          },
+          {
+            "title": "GitHub PR",
+            "url": "https://github.com/requests/requests/pull/4718"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.20)"
+          ]
+        },
+        "severity": "high",
+        "title": "Information Exposure",
+        "from": [
+          "boto/boto@boto/boto#91ba037e54ef521c379263b0ac769c66182527d7",
+          "requests@2.0.1"
+        ],
+        "upgradePath": [],
+        "version": "2.0.1",
+        "name": "requests",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-28T08:29:53.537000Z",
+        "credit": [
+          "Filippo Valsorda"
+        ],
+        "cvssScore": 5.3,
+        "description": "## Overview\n[`rsa`](https://pypi.python.org/pypi/rsa) is a Pure-Python RSA implementation.\n\nThe verify function in the RSA package for Python (Python-RSA) before 3.3 allows attackers to spoof signatures with a small public exponent via crafted signature padding, aka a Berserk attack.\n\n## References\n- [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1494)\n- [Bitbucket PR](https://bitbucket.org/sybren/python-rsa/pull-requests/14/security-fix-bb06-attack-in-verify-by/diff)\n- [Bitbucket Commit](https://bitbucket.org/sybren/python-rsa/commits/0cbcc529926afd61c6df4f50cfc29971beafd2c2?at=default)\n",
+        "disclosureTime": "2015-12-15T00:27:53.061000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-RSA-40377",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-1494"
+          ],
+          "CWE": [
+            "CWE-20"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:47.334295Z",
+        "moduleName": "rsa",
+        "packageManager": "pip",
+        "packageName": "rsa",
+        "patches": [],
+        "publicationTime": "2015-12-15T00:27:53.061000Z",
+        "references": [
+          {
+            "title": "NVD",
+            "url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1494"
+          },
+          {
+            "title": "Bitbucket PR",
+            "url": "https://bitbucket.org/sybren/python-rsa/pull-requests/14/security-fix-bb06-attack-in-verify-by/diff"
+          },
+          {
+            "title": "Bitbucket Commit",
+            "url": "https://bitbucket.org/sybren/python-rsa/commits/0cbcc529926afd61c6df4f50cfc29971beafd2c2?at=default"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,3.3)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Improper Input Validation",
+        "from": [
+          "boto/boto@boto/boto#91ba037e54ef521c379263b0ac769c66182527d7",
+          "rsa@3.1.4"
+        ],
+        "upgradePath": [],
+        "version": "3.1.4",
+        "name": "rsa",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-28T08:29:56.938000Z",
+        "credit": [
+          "Manuel Aude Morales"
+        ],
+        "cvssScore": 5.3,
+        "description": "## Overview\n[`rsa`](https://pypi.python.org/pypi/rsa) is a Pure-Python RSA implementation.\n\nAffected versions of this package are vulnerable to Timing attacks.\n\n## References\n- [GitHub Issue](https://github.com/sybrenstuvel/python-rsa/issues/19)\n- [GitHub Commit](https://github.com/sybrenstuvel/python-rsa/commit/2310b34bdb530e0bad793d42f589c9f848ff181b)\n",
+        "disclosureTime": "2013-11-15T02:34:45.265000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-RSA-40541",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-208"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:12.024712Z",
+        "moduleName": "rsa",
+        "packageManager": "pip",
+        "packageName": "rsa",
+        "patches": [],
+        "publicationTime": "2013-11-15T02:34:45.265000Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/sybrenstuvel/python-rsa/issues/19"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/sybrenstuvel/python-rsa/commit/2310b34bdb530e0bad793d42f589c9f848ff181b"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[3.0,3.4.0)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Timing Attack",
+        "from": [
+          "boto/boto@boto/boto#91ba037e54ef521c379263b0ac769c66182527d7",
+          "rsa@3.1.4"
+        ],
+        "upgradePath": [],
+        "version": "3.1.4",
+        "name": "rsa",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-28T08:29:56.952000Z",
+        "credit": [
+          "Sergio Lerner"
+        ],
+        "cvssScore": 7.5,
+        "description": "## Overview\n[`rsa`](https://pypi.python.org/pypi/rsa) is a Pure-Python RSA implementation.\n\nAffected versions of this package are vulnerable to Authentication Bypass due to not implementing authentication encryption or use MACs to validate messages before decrypting public key encrypted messages.\n\n## References\n- [GitHub Issue](https://github.com/sybrenstuvel/python-rsa/issues/13)\n- [GitHub Commit](https://github.com/sybrenstuvel/python-rsa/commit/1681a0b2f84a4a252c71b87de870a2816de06fdf)\n",
+        "disclosureTime": "2012-12-07T03:15:00.052000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-RSA-40542",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-287"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:11.248963Z",
+        "moduleName": "rsa",
+        "packageManager": "pip",
+        "packageName": "rsa",
+        "patches": [],
+        "publicationTime": "2012-12-07T03:15:00.052000Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/sybrenstuvel/python-rsa/issues/13"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/sybrenstuvel/python-rsa/commit/1681a0b2f84a4a252c71b87de870a2816de06fdf"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[3.0,3.4)"
+          ]
+        },
+        "severity": "high",
+        "title": "Authentication Bypass",
+        "from": [
+          "boto/boto@boto/boto#91ba037e54ef521c379263b0ac769c66182527d7",
+          "rsa@3.1.4"
+        ],
+        "upgradePath": [],
+        "version": "3.1.4",
+        "name": "rsa",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 20,
+    "severityMap": {
+      "high": 3,
+      "medium": 4,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "7 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 7,
+    "path": "https://github.com/boto/boto"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 60bb49c2-43cf-430a-856c-2e3fe0b7185a)",
+    "path": "https://github.com/benoitc/gunicorn"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: eb0d2507-1ba0-4f0c-be1e-b2421856f7da)",
+    "path": "https://github.com/giampaolo/psutil"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 23,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/docker/docker-py"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/sphinx-doc/sphinx"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/lxml/lxml"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8c1cefac-e893-4873-85bd-3bc7f4fd225c)",
+    "path": "https://github.com/pypa/setuptools"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b443e233-e88c-431d-9651-f0f024c01d7b)",
+    "path": "https://github.com/yaml/pyyaml"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 95eb2488-0e71-425b-956a-52c015200b8e)",
+    "path": "https://github.com/keras-team/keras"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3165caca-83bc-44f7-a057-10f2b73c644a)",
+    "path": "https://github.com/pandas-dev/pandas"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9b597685-20ff-431f-91ea-27f7df403465)",
+    "path": "https://github.com/tqdm/tqdm"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d795803c-a8c9-4578-875a-c91e3deffd84)",
+    "path": "https://github.com/andymccurdy/redis-py"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9bd767f1-3237-431b-b59a-0a4a1ea47245)",
+    "path": "https://github.com/coleifer/peewee"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7ebae015-5f0a-49d4-a888-dc8010c92662)",
+    "path": "https://github.com/pallets/werkzeug"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: fe0d6762-6a91-4b25-b9e2-f8427e696775)",
+    "path": "https://github.com/marshmallow-code/marshmallow"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8a12b81a-3a98-46a5-a4d0-d516c8e7f5e3)",
+    "path": "https://github.com/twisted/twisted"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e3f39177-39a5-42d9-8018-1a502a42cbc7)",
+    "path": "https://github.com/jpadilla/pyjwt"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/nose-devs/nose"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 6,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/requests/requests-oauthlib"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c3b08421-626c-4ae1-91b6-6a1e2f63d88a)",
+    "path": "https://github.com/ytdl-org/youtube-dl"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 629ca6df-23f1-4ae6-b82f-c57b562ce554)",
+    "path": "https://github.com/paramiko/paramiko"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b86fb92a-5545-4b48-a7a5-cce99a817a69)",
+    "path": "https://github.com/PyMySQL/PyMySQL"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f6ba954d-e952-46a5-b3d8-94d70801033a)",
+    "path": "https://github.com/django-extensions/django-extensions"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f74a8ff8-913c-483e-b928-20251179ee81)",
+    "path": "https://github.com/gorakhargosh/watchdog"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a950ee2c-aab1-45b1-b6db-6baa2909c88e)",
+    "path": "https://github.com/pyca/cryptography"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 06d2a5d5-dd68-44eb-8464-b2b9ba583d1f)",
+    "path": "https://github.com/mongodb/mongo-python-driver"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: de3e17bc-8965-4ae4-949d-2c1fd49d6938)",
+    "path": "https://github.com/google/google-api-python-client"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 697116bb-ea9a-4d5f-9bff-c5cef0a0a7cf)",
+    "path": "https://github.com/GoogleCloudPlatform/google-cloud-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 996751f6-6f4a-4dd8-b9ea-a5d4735c1698)",
+    "path": "https://github.com/Julian/jsonschema"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/gitpython-developers/GitPython"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: aa5e3bd0-4caf-43bf-a1af-c89ef147ab79)",
+    "path": "https://github.com/jmcnamara/XlsxWriter"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 32516acb-db30-47e8-acfa-0be633ab412f)",
+    "path": "https://github.com/andialbrecht/sqlparse"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 52c15ac9-242b-4edc-8c27-b49e3398bd37)",
+    "path": "https://github.com/simplejson/simplejson"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e5cb30d7-ed11-4f52-b943-1a1a09e420a3)",
+    "path": "https://github.com/cherrypy/cherrypy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2bd1256d-510e-4c55-b3af-e96dcbaaf4a9)",
+    "path": "https://github.com/jaraco/path.py"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 75f8def6-75d1-4094-9ca6-6172abc55956)",
+    "path": "https://github.com/erikrose/more-itertools"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 96272083-89c0-4d90-88fc-824d1e9c8b51)",
+    "path": "https://github.com/un33k/python-slugify"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 19,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/boto/botocore"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 023d6c81-a227-45f1-8f10-a2508baff8c9)",
+    "path": "https://github.com/pytest-dev/pytest-cov"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 0b9bcf2b-227f-482c-b55d-dd0a218a7928)",
+    "path": "https://github.com/ActiveState/appdirs"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 746e4b39-e2a4-4df2-b10e-9fd651c7661f)",
+    "path": "https://github.com/pyparsing/pyparsing"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/bokeh/bokeh"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e31a4339-4283-48b3-acc7-cd3624710ad9)",
+    "path": "https://github.com/joke2k/faker"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/tweepy/tweepy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 19,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/crsmithdev/arrow"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5b8eb6c3-1dd1-4c8c-a419-7fe801342114)",
+    "path": "https://github.com/jazzband/django-debug-toolbar"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: bba32ad2-210e-44d0-8399-a1439b87807b)",
+    "path": "https://github.com/martinblech/xmltodict"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5e41b9bb-411d-4ce0-8688-4bbf3e3a6880)",
+    "path": "https://github.com/mitsuhiko/flask-sqlalchemy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 25,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pygithub/PyGithub"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 62db45ec-3c2a-446e-8733-e096c29ab376)",
+    "path": "https://github.com/elastic/elasticsearch-py"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 16,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/timothycrosley/isort"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 9,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/oauthlib/oauthlib"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a29f1e3f-d735-4e2c-8277-6146d19d6b46)",
+    "path": "https://github.com/mitsuhiko/itsdangerous"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 18,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/kubernetes-client/python"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/tartley/colorama"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: bd53c327-ecf6-484a-8cd1-4945f4ba7a1a)",
+    "path": "https://github.com/psycopg/psycopg2"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 59577ca3-07f6-45df-bcd4-3d12f4c25f21)",
+    "path": "https://github.com/miguelgrinberg/flask-migrate"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pyserial/pyserial"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: fefbfe0d-c94a-4f15-91d2-6947082c9d4e)",
+    "path": "https://github.com/chardet/chardet"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 717859f9-e3ee-46ef-b1da-69658d57dbe6)",
+    "path": "https://github.com/kurtmckee/feedparser"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d4c8ac56-881f-41c9-b1ce-ee5224574d44)",
+    "path": "https://github.com/pyca/pyopenssl"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pyca/bcrypt"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/testing-cabal/mock"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: eec1469b-6bc3-4b30-a6d4-43d19b99e621)",
+    "path": "https://github.com/python-social-auth/social-core"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a2eec84a-c318-4436-9ad4-3cfb1662f579)",
+    "path": "https://github.com/jaraco/keyring"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f84ebe94-7463-477c-9c63-82a321029d6e)",
+    "path": "https://github.com/tkem/cachetools"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b8715fea-e960-4016-9146-dac6b5c28764)",
+    "path": "https://github.com/micheles/decorator"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8fb69480-a7bf-43db-9527-31dca34a570f)",
+    "path": "https://github.com/GoogleCloudPlatform/google-auth-library-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 71fbc1ef-f26f-4c99-a13d-eaedf9b19891)",
+    "path": "https://github.com/zopefoundation/zope.interface"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "maven",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/apache/spark"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d7835f00-1739-4957-bebc-68880ebaba5f)",
+    "path": "https://github.com/saltstack/salt/"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 13,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/python-telegram-bot/python-telegram-bot"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4fe3641c-e141-4b72-a982-825636536621)",
+    "path": "https://github.com/Supervisor/supervisor"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2de62001-ff00-49c5-ab66-e99ea0bac8d7)",
+    "path": "https://github.com/pennersr/django-allauth"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4b5ecb37-45e3-40ec-b632-496c45311db7)",
+    "path": "https://github.com/dask/dask"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/davidhalter/jedi"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5adca764-d34c-4ee2-9eb8-255d1b528944)",
+    "path": "https://github.com/burnash/gspread"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a7dc697a-839a-479c-b84f-ba3017704bfc)",
+    "path": "https://github.com/PyCQA/pep8"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e93fdfd7-7d0d-4d26-b7b1-4384bdb26956)",
+    "path": "https://github.com/flask-admin/flask-admin"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c1a27817-5f6b-4aee-85a2-09885113bf6b)",
+    "path": "https://github.com/HypothesisWorks/hypothesis"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 4,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/cloudtools/troposphere"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 489dca04-36a0-4203-954c-e149765da608)",
+    "path": "https://github.com/jazzband/pip-tools"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c3c5b58e-61db-4750-a605-aeb9f445e287)",
+    "path": "https://github.com/dpkp/kafka-python"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 31,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/ottoyiu/django-cors-headers"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 962c0dda-2343-49eb-846c-2b43e2b99724)",
+    "path": "https://github.com/kennethreitz/clint"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 04242bea-8e5d-4ace-95f3-7ffe756bc404)",
+    "path": "https://github.com/PyCQA/pylint"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2aa929ec-2a08-47b2-bdeb-5f5eaca9f823)",
+    "path": "https://github.com/mozilla/bleach"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 21,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/brack3t/django-braces"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8bbcdd5e-00fe-4318-aed1-9c5ec907d8b1)",
+    "path": "https://github.com/googleapis/googleapis"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f3dd89ba-e93f-4991-8f3a-a00869fad689)",
+    "path": "https://github.com/celery/django-celery"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 67e88c0f-ed82-47ed-ae4a-dae74202087f)",
+    "path": "https://github.com/mkleehammer/pyodbc"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/influxdb/influxdb-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3a49dbb5-2ccf-4640-9ee5-6121e9e491c5)",
+    "path": "https://github.com/GrahamDumpleton/wrapt"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7d0a9a49-6b8b-45fa-be8b-b7ef38b0ab07)",
+    "path": "https://github.com/pypa/twine"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 19,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/sendgrid/sendgrid-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8fe4e347-11ea-4ea7-95be-e5bebc8349cd)",
+    "path": "https://github.com/Azure/azure-sdk-for-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 072836f9-b6f2-4617-b69f-40fb9e04021f)",
+    "path": "https://github.com/google/oauth2client"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5b2e4113-bc11-4a90-b1a0-44c86047cea2)",
+    "path": "https://github.com/stripe/stripe-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 23ad782b-b518-418d-b101-289d4bc4013d)",
+    "path": "https://github.com/adrienverge/yamllint"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 7,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/corydolphin/flask-cors"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9845c6b9-94f1-4012-b6ab-a5347ebcf26c)",
+    "path": "https://github.com/bitprophet/alabaster"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 0758073f-b514-49d3-827a-2db8b4e9163a)",
+    "path": "https://github.com/aliyun/aliyun-openapi-python-sdk"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3c4082dd-0044-47c4-b341-8a9364ce0811)",
+    "path": "https://github.com/WoLpH/python-progressbar"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9fdea1c3-8940-44be-b03b-c468f4c8ee66)",
+    "path": "https://github.com/coveralls-clients/coveralls-python"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 30,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pydanny/cached-property"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 44,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/sh4nks/flask-caching"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 366b615c-0cc5-49e2-965b-2d7ddecccbb8)",
+    "path": "https://github.com/httplib2/httplib2"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1e886e50-d137-486b-b403-76b4bc794097)",
+    "path": "https://gitlab.com/pycqa/flake8"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: fe2d4509-fc53-47dc-99f8-6487881ac22a)",
+    "path": "https://github.com/pallets/markupsafe"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 46adedf8-b71c-45eb-977d-4bf36a144107)",
+    "path": "https://github.com/pypa/wheel"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 24d20ca9-b9ad-44f4-b72e-fcd7e76e5b59)",
+    "path": "https://github.com/pypa/packaging"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f16ead46-cb9b-4cc6-a83d-40404f1cf193)",
+    "path": "https://github.com/ThomasWaldmann/argparse"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d9f037bf-2dc8-4498-84cc-1bece192fb4d)",
+    "path": "https://github.com/letsencrypt/letsencrypt"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 15ab29b7-dc04-410e-ad55-977bb3f48970)",
+    "path": "https://github.com/spotify/luigi"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 88a48f83-9f24-44dc-abf0-06b5e5d36e55)",
+    "path": "https://github.com/audreyr/cookiecutter"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5e171dd7-3ac2-48f6-9ee5-4324a969ecd7)",
+    "path": "https://github.com/sloria/TextBlob"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 0a44895e-6839-421a-92d0-d6a0a14c12bc)",
+    "path": "https://github.com/dbader/schedule"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a7898c5b-e415-4583-a5af-2b81d78df17e)",
+    "path": "https://github.com/zulko/moviepy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/nvie/rq"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5538e21a-1b98-4f86-b185-dfc4e938f9a3)",
+    "path": "https://github.com/seatgeek/fuzzywuzzy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: fa2ad987-d7ca-4deb-88c6-d55d3221f36e)",
+    "path": "https://github.com/amoffat/sh"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7adacb7d-954e-4d94-af86-20a52e6e91ea)",
+    "path": "https://github.com/secdev/scapy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 0c11ea6a-a4d4-483e-bd63-a34f858cfdc7)",
+    "path": "https://github.com/flask-restful/flask-restful"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e50662f0-4f98-4fdf-a352-460d49479ee9)",
+    "path": "https://github.com/mher/flower"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 29,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/maraujop/django-crispy-forms"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 10,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/Rapptz/discord.py"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a8fa21c8-26ac-4a5c-af5c-ba7aa9f18e51)",
+    "path": "https://github.com/miguelgrinberg/Flask-SocketIO"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/rtfd/sphinx_rtd_theme"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3ff6aaff-75e3-4d7d-aad6-0adc6e2d35f5)",
+    "path": "https://github.com/msiemens/tinydb"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/joestump/python-oauth2"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 66545108-59a5-4b09-9e29-66dfa8a33df5)",
+    "path": "https://github.com/carltongibson/django-filter"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/bear/python-twitter"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 85e27b99-ad1f-40f8-bf1a-ac4c713c2160)",
+    "path": "https://github.com/geopy/geopy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/GetBlimp/django-rest-framework-jwt"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 76c6d10c-975b-4448-9864-b34a27f511ef)",
+    "path": "https://github.com/elasticsearch/elasticsearch-dsl-py"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3d95e801-19e3-44eb-9722-36a82013f08c)",
+    "path": "https://github.com/etianen/django-reversion"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e4078737-6809-44d6-a6f8-b3411c741bc2)",
+    "path": "https://github.com/getsentry/responses"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: fc85f0aa-e7ad-4643-998b-ae21aaae3e58)",
+    "path": "https://github.com/daviddrysdale/python-phonenumbers"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 08dcf5f4-707d-4124-9848-e3de5665b7a8)",
+    "path": "https://github.com/jazzband/django-taggit"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 7,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/maxcountryman/flask-login"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 497f30a3-321f-402d-9138-32745af7edfb)",
+    "path": "https://github.com/aaugustin/websockets"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/slackapi/python-slackclient"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4626269d-b2c3-40f5-8b2a-1ff990c57d75)",
+    "path": "https://github.com/websocket-client/websocket-client"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 44,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/theskumar/python-dotenv"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: bbe254b1-302d-4e63-8e6f-1c3550cbb450)",
+    "path": "https://github.com/trentm/python-markdown2"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 34,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jazzband/django-model-utils"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 41acb62b-1f94-43fd-851f-f873e5f91d8b)",
+    "path": "https://github.com/getsentry/raven-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 36cb7a1c-de93-4f48-bf20-528b8a656a63)",
+    "path": "https://github.com/eliben/pycparser"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d15ec523-3605-4671-877a-041d25725b8e)",
+    "path": "https://github.com/lepture/mistune"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "alternativeIds": [],
+        "creationTime": "2018-08-20T19:12:29.035000Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 7.5,
+        "description": "## Overview\n[flask](https://pypi.org/project/Flask/) is a lightweight WSGI web application framework.\n\nAffected versions of this package are vulnerable to Improper Input Validation. It did not detect the encoding of incoming JSON data as one of the supported UTF encodings, and allowed arbitrary encodings from the request.\n\n## Remediation\nUpgrade `flask` to version 0.12.3 or higher.\n\n## References\n- [GitHub PR](https://github.com/pallets/flask/pull/2691)\n- [GitHub Release Tag](https://github.com/pallets/flask/releases/tag/0.12.3)\n",
+        "disclosureTime": "2018-04-10T19:12:29.035000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-FLASK-42185",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-1000656"
+          ],
+          "CWE": [
+            "CWE-20"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-20T10:10:09.911402Z",
+        "moduleName": "flask",
+        "packageManager": "pip",
+        "packageName": "flask",
+        "patches": [],
+        "publicationTime": "2018-08-21T14:16:13.738000Z",
+        "references": [
+          {
+            "title": "GitHub PR",
+            "url": "https://github.com/pallets/flask/pull/2691"
+          },
+          {
+            "title": "GitHub Release Tag",
+            "url": "https://github.com/pallets/flask/releases/tag/0.12.3"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,0.12.3)"
+          ]
+        },
+        "severity": "high",
+        "title": "Improper Input Validation",
+        "from": [
+          "lepture/flask-oauthlib@lepture/flask-oauthlib#9e6f152a5bb360e7496210da21561c3e6d41b0e1",
+          "flask@0.12.2"
+        ],
+        "upgradePath": [],
+        "version": "0.12.2",
+        "name": "flask",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 20,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/lepture/flask-oauthlib"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 14200949-649e-43df-9621-ec1e90a32871)",
+    "path": "https://github.com/mbr/flask-bootstrap"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-11-07T08:45:03.854000Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 7.5,
+        "description": "## Overview\n[`pyjwt`](http://pypi.python.org/pypi/PyJWT) is a JSON Web Token implementation in Python.\n\nAffected versions of the package are vulnerable to Authentication Bypass.\nIn PyJWT 1.5.0 and below the `invalid_strings` check in `HMACAlgorithm.prepare_key` does not account for all PEM encoded public keys. Specifically, the PKCS1 PEM encoded format would be allowed because it is prefaced with the string `-----BEGIN RSA PUBLIC KEY-----` which is not accounted for. This enables symmetric/asymmetric key confusion attacks against users using the PKCS1 PEM encoded public keys, which would allow an attacker to craft JWTs from scratch.\n\n## Remediation\nUpgrade `pyjwt` to version 1.5.1 or higher.\n\n## References\n- [NVD](https://nvd.nist.gov/vuln/detail/CVE-2017-11424)\n- [Github PR](https://github.com/jpadilla/pyjwt/pull/277)\n- [Github Commit](https://github.com/jpadilla/pyjwt/commit/37926ea0dd207db070b45473438853447e4c1392)\n",
+        "disclosureTime": "2017-06-21T21:00:00Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-PYJWT-40693",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-11424"
+          ],
+          "CWE": [
+            "CWE-284"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:48.146801Z",
+        "moduleName": "pyjwt",
+        "packageManager": "pip",
+        "packageName": "pyjwt",
+        "patches": [],
+        "publicationTime": "2017-11-09T02:45:03.854000Z",
+        "references": [
+          {
+            "title": "NVD",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11424"
+          },
+          {
+            "title": "Github PR",
+            "url": "https://github.com/jpadilla/pyjwt/pull/277"
+          },
+          {
+            "title": "Github Commit",
+            "url": "https://github.com/jpadilla/pyjwt/commit/37926ea0dd207db070b45473438853447e4c1392"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.5.1)"
+          ]
+        },
+        "severity": "high",
+        "title": "Authentication Bypass",
+        "from": [
+          "twilio/twilio-python@twilio/twilio-python#dc48b4673ce2ffc884883cae4c7449ae65cafb2a",
+          "pyjwt@1.4.2"
+        ],
+        "upgradePath": [],
+        "version": "1.4.2",
+        "name": "pyjwt",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-11-05T00:00:00Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 7.5,
+        "description": "## Overview\nAffected versions of [`pyjwt`](https://pypi.python.org/pypi/pyjwt) are vulnerable to Access Restriction Bypass.\n\nIn PyJWT 1.5.0 and below the `invalid_strings` check in `HMACAlgorithm.prepare_key` does not account for all PEM encoded public keys. Specifically, the PKCS1 PEM encoded format would be allowed because it is prefaced with the string `-----BEGIN RSA PUBLIC KEY-----` which is not accounted for. This enables symmetric/asymmetric key confusion attacks against users using the PKCS1 PEM encoded public keys, which would allow an attacker to craft JWTs from scratch.\n\n## Remediation\nUpgrade `pyjwt` to version 1.5.1 or higher.\n\n## References\n- [NVD](https://nvd.nist.gov/vuln/detail/CVE-2017-11424)\n- [GitHub Changelog](https://github.com/jpadilla/pyjwt/blob/master/CHANGELOG.md#fixed-3)\n- [Github PR](https://github.com/jpadilla/pyjwt/pull/277)\n- [Github Commit](https://github.com/jpadilla/pyjwt/commit/eb3f58103831630f499e331de6e6938c84945a79)\n",
+        "disclosureTime": "2017-06-22T00:00:00Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-PYJWT-40753",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-11424"
+          ],
+          "CWE": [
+            "CWE-284"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:48.225234Z",
+        "moduleName": "pyjwt",
+        "packageManager": "pip",
+        "packageName": "pyjwt",
+        "patches": [],
+        "publicationTime": "2017-12-04T13:08:47.893000Z",
+        "references": [
+          {
+            "title": "NVD",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11424"
+          },
+          {
+            "title": "GitHub Changelog",
+            "url": "https://github.com/jpadilla/pyjwt/blob/master/CHANGELOG.md#fixed-3"
+          },
+          {
+            "title": "Github PR",
+            "url": "https://github.com/jpadilla/pyjwt/pull/277"
+          },
+          {
+            "title": "Github Commit",
+            "url": "https://github.com/jpadilla/pyjwt/commit/eb3f58103831630f499e331de6e6938c84945a79"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.5.1)"
+          ]
+        },
+        "severity": "high",
+        "title": "Access Restriction Bypass",
+        "from": [
+          "twilio/twilio-python@twilio/twilio-python#dc48b4673ce2ffc884883cae4c7449ae65cafb2a",
+          "pyjwt@1.4.2"
+        ],
+        "upgradePath": [],
+        "version": "1.4.2",
+        "name": "pyjwt",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 31,
+    "severityMap": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "path": "https://github.com/twilio/twilio-python"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/Azure/azure-cli"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 04abb434-f1dc-461c-a33b-408963cd006c)",
+    "path": "https://github.com/openstack/bandit"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3b533900-7631-48f8-88cc-ded685ae131b)",
+    "path": "https://github.com/mongodb/motor"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/rholder/retrying"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a36110e6-9f95-4a69-bee6-258968f4d65b)",
+    "path": "https://github.com/jieter/django-tables2"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 964a261f-f001-4165-af61-128277ca3e4a)",
+    "path": "https://github.com/python-greenlet/greenlet"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/datastax/python-driver"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d553686b-6029-4c6e-b7d6-be423d32caf6)",
+    "path": "https://github.com/ui/django-rq"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b298d031-288e-49ed-8b99-c62d3292018a)",
+    "path": "https://github.com/gotcha/ipdb"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "pydata/numexpr@pydata/numexpr#364bac13d84524e0e01db892301b2959d822dcff",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/pydata/numexpr"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 959635ef-c2b8-4379-8b75-bc75554b52fe)",
+    "path": "https://github.com/kennethreitz/dj-database-url"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9f7c870a-6362-4e3f-a60b-d2376f767a60)",
+    "path": "https://github.com/selwin/python-user-agents"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/PyFilesystem/pyfilesystem2"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f4e1a974-4973-4f54-a832-904fc02e8230)",
+    "path": "https://github.com/peterbe/premailer"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b01554f1-0cf9-4093-9182-6033cbdaacfb)",
+    "path": "https://github.com/erikrose/blessings"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ec0ca045-dd76-4109-b787-20b52bb5a2c2)",
+    "path": "https://github.com/marshmallow-code/webargs"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jmespath/jmespath.py"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c1e581ee-a60c-4e6b-b1d6-ec06ee7a73ba)",
+    "path": "https://github.com/skvark/opencv-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 86159d53-d3bb-41a8-94bd-1fab68c4c125)",
+    "path": "https://github.com/r1chardj0n3s/parse"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 99d8dd33-385b-40ea-929c-51b3c74b3438)",
+    "path": "https://github.com/PyCQA/pyflakes"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 711fabf2-ee00-402b-baa1-4e3d549f3fa4)",
+    "path": "https://github.com/miguelgrinberg/flask-httpauth"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "vimalloc/flask-jwt-extended@vimalloc/flask-jwt-extended#569d3b89eb5d2586d0cff4581a346229c623cefc",
+          "flask@1.0.2",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "vimalloc/flask-jwt-extended@vimalloc/flask-jwt-extended#569d3b89eb5d2586d0cff4581a346229c623cefc",
+          "sphinx@1.8.3",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "Jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "vimalloc/flask-jwt-extended@vimalloc/flask-jwt-extended#569d3b89eb5d2586d0cff4581a346229c623cefc",
+          "flask-sphinx-themes@1.0.2",
+          "Sphinx@1.8.3",
+          "Jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "Jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 44,
+    "severityMap": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "3 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/vimalloc/flask-jwt-extended"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a0393bad-0dd6-4d54-83ad-c960228bac3d)",
+    "path": "https://github.com/kislyuk/argcomplete"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9ddd0235-3a2e-488c-a21a-23bff72687cd)",
+    "path": "https://github.com/Anorov/PySocks"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 20071179-db0a-45c5-b97c-c687df487dd0)",
+    "path": "https://github.com/marshmallow-code/apispec"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b1a773d5-aedc-4e6d-b8a9-499f125fe1f2)",
+    "path": "https://github.com/collective/icalendar"
+  }
+]

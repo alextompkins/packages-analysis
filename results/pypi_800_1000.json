@@ -1,0 +1,3914 @@
+[
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 13,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/caronc/apprise"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pytransitions/transitions"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c70a4e6f-609a-4bae-a63a-05078100edf6)",
+    "path": "https://github.com/instagram/MonkeyType"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.535000Z",
+        "credit": [
+          "Scott Geary"
+        ],
+        "cvssScore": 5.6,
+        "description": "## Overview\r\n[`requests`](https://pypi.python.org/pypi/requests) is a Python HTTP for Humans.\r\n\r\nAffected versions of this package are vulnerable to HTTPoxy attacks. The Python `CGIHandler` class did not properly protect against the `HTTP_PROXY` variable. A remote attacker could possibly use this flaw to redirect HTTP requests performed by a Python CGI script to an attacker-controlled proxy via a malicious HTTP request.\r\n\r\n## Remediation\r\nAccording to the vendor, setting the `Session.trust_env` to False completely mitigates this risk.\r\n\r\n## References\r\n- [GitHub Issue](https://github.com/requests/requests/issues/3422)\r\n- [HTTPoxy Documentation](https://httpoxy.org/)\r\n",
+        "disclosureTime": "2016-07-17T00:12:34.435000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-REQUESTS-40470",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-601"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:12.045254Z",
+        "moduleName": "requests",
+        "packageManager": "pip",
+        "packageName": "requests",
+        "patches": [],
+        "publicationTime": "2016-07-17T00:12:34.435000Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/requests/requests/issues/3422"
+          },
+          {
+            "title": "HTTPoxy Documentation",
+            "url": "https://httpoxy.org/"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[1.2.0,2.10.0]"
+          ]
+        },
+        "severity": "high",
+        "title": "HTTP Request Redirection",
+        "from": [
+          "eternnoir/pyTelegramBotAPI@eternnoir/pyTelegramBotAPI#31dbe30489b484faa7475076768d1ed7e1eb0f32",
+          "requests@2.7.0"
+        ],
+        "upgradePath": [],
+        "version": "2.7.0",
+        "name": "requests",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2018-10-10T08:41:56.309157Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\n[Requests](https://pypi.org/project/requests/) is a  _Non-GMO_ HTTP library for Python\r\n\r\nAffected versions of this package are vulnerable to Information Exposure.\r\nUpon receiving a same-hostname https-to-http redirect, it sends the HTTP Authorization header to an http URI. This makes it easier for remote attackers to discover credentials by sniffing the network.\r\n\r\n## Remediation\r\nUpgrade `request` to version 2.20 or higher.\n\n## References\n- [GitHub Commit](https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff)\n- [GitHub Issue](https://github.com/requests/requests/issues/4716)\n- [GitHub PR](https://github.com/requests/requests/pull/4718)\n",
+        "disclosureTime": "2018-10-09T17:16:32Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-REQUESTS-72435",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-18074"
+          ],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:11.991258Z",
+        "moduleName": "requests",
+        "packageManager": "pip",
+        "packageName": "requests",
+        "patches": [],
+        "publicationTime": "2018-10-10T11:23:44Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff"
+          },
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/requests/requests/issues/4716"
+          },
+          {
+            "title": "GitHub PR",
+            "url": "https://github.com/requests/requests/pull/4718"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.20)"
+          ]
+        },
+        "severity": "high",
+        "title": "Information Exposure",
+        "from": [
+          "eternnoir/pyTelegramBotAPI@eternnoir/pyTelegramBotAPI#31dbe30489b484faa7475076768d1ed7e1eb0f32",
+          "requests@2.7.0"
+        ],
+        "upgradePath": [],
+        "version": "2.7.0",
+        "name": "requests",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 5,
+    "severityMap": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "path": "https://github.com/eternnoir/pyTelegramBotAPI"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/manrajgrover/halo"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 6853d55e-5ee8-4e32-907e-7fdda13d33fd)",
+    "path": "https://github.com/nickoala/telepot"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 10,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jxtech/wechatpy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 17,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/mwouts/jupytext"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ff7c2a45-290c-466e-a9f7-bae521b95bae)",
+    "path": "https://github.com/nabla-c0d3/sslyze"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4907d652-18d0-4f4d-82bb-b7613130a81d)",
+    "path": "https://github.com/omnisci/mapd-core"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/damianavila/RISE"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f6e24669-bd82-4408-85d3-6fc12e2107e0)",
+    "path": "https://github.com/graphql-python/graphene-django"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3c283ef5-c97b-4f01-aa86-aa1021d6da45)",
+    "path": "https://github.com/cvxgrp/cvxpy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 428c0650-4d8e-4865-bd5c-dfbe3d20096d)",
+    "path": "https://github.com/jonashaag/bjoern"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4f9a73dc-3f15-45ab-8619-7247f69b72ab)",
+    "path": "https://github.com/Tivix/django-rest-auth"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 15,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/fugue/credstash"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 13,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/balloob/pychromecast"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 8864988c-8b29-4b97-86b6-349818dea04e)",
+    "path": "https://github.com/manahl/arctic"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 19,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/xhtml2pdf/xhtml2pdf"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 6,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/myusuf3/delorean"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "pytorch/text@pytorch/text#26bfce6869dc704f1d86792f9a681d453d7e7bb8",
+          "spacy@2.1.3",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "pytorch/text@pytorch/text#26bfce6869dc704f1d86792f9a681d453d7e7bb8",
+          "spacy@2.1.3",
+          "blis@0.2.4",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "pytorch/text@pytorch/text#26bfce6869dc704f1d86792f9a681d453d7e7bb8",
+          "spacy@2.1.3",
+          "thinc@7.0.4",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "pytorch/text@pytorch/text#26bfce6869dc704f1d86792f9a681d453d7e7bb8",
+          "spacy@2.1.3",
+          "thinc@7.0.4",
+          "blis@0.2.4",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 61,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "4 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/pytorch/text"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/viewflow/viewflow"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2758e01f-9f32-4b76-86c6-b303b2ba77cb)",
+    "path": "https://github.com/gruns/furl"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3776873c-6be7-43d6-ba7e-614eb67bd183)",
+    "path": "https://github.com/matthewwithanm/django-imagekit"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 11,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jorgenschaefer/elpy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7bfe841f-7b8e-4012-bab4-240ec40764e0)",
+    "path": "https://github.com/hmmlearn/hmmlearn"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f35296e2-72c4-4f67-b8f9-9711ffcaffed)",
+    "path": "https://github.com/owais/django-webpack-loader"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7ee65bf4-9d22-4ff2-909b-d00f87bef2cb)",
+    "path": "https://github.com/google/googleapis"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b2be11e8-1125-4c82-854b-5d28618fea76)",
+    "path": "https://github.com/has2k1/plotnine"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 38,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/hellysmile/fake-useragent"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 14,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/rochacbruno/flasgger"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a7b0538c-bf31-4142-aa01-f301948a5e19)",
+    "path": "https://github.com/bread-and-pepper/django-userena"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/Exa-Networks/exabgp"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "phanein/deepwalk@phanein/deepwalk#85c96b62de36b8b7c8b652254d3940f497df634e",
+          "scipy@1.2.1",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "phanein/deepwalk@phanein/deepwalk#85c96b62de36b8b7c8b652254d3940f497df634e",
+          "gensim@3.7.2",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "phanein/deepwalk@phanein/deepwalk#85c96b62de36b8b7c8b652254d3940f497df634e",
+          "gensim@3.7.2",
+          "scipy@1.2.1",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 24,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "3 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/phanein/deepwalk"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "rueckstiess/mtools@rueckstiess/mtools#a6a22910c3569c0c8a3908660ca218a4557e4249",
+          "numpy@1.14.5"
+        ],
+        "upgradePath": [],
+        "version": "1.14.5",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "rueckstiess/mtools@rueckstiess/mtools#a6a22910c3569c0c8a3908660ca218a4557e4249",
+          "matplotlib@1.4.3",
+          "numpy@1.14.5"
+        ],
+        "upgradePath": [],
+        "version": "1.14.5",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 13,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/rueckstiess/mtools"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 782798a9-2f60-417d-bf80-75d3a53f943a)",
+    "path": "https://github.com/piskvorky/smart_open"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c134d3b2-94e1-4a88-9588-ae6cdbda07d3)",
+    "path": "https://github.com/miyakogi/pyppeteer"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/azure/azure-cli"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e36e1fb7-0916-42ff-98b0-7feb1e54d956)",
+    "path": "https://github.com/jrief/django-angular"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/kmmbvnr/django-fsm"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5baa86ac-9a10-488f-aca7-6ab022d27a0b)",
+    "path": "https://github.com/cdgriffith/Box"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 57fba314-4f5a-4b11-8c48-8a9790431616)",
+    "path": "https://github.com/hyperledger/sawtooth-core"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 34,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/napalm-automation/napalm"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: dba19734-2ffc-4702-8fdb-22d7347a687d)",
+    "path": "https://github.com/BurntSushi/nflgame"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 76378a90-3ad0-4781-9826-75dbf90370e3)",
+    "path": "https://github.com/libgit2/pygit2"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 086a3622-e2cd-49a3-91b8-f84c052328ef)",
+    "path": "https://github.com/palantir/python-language-server"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 32,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/sammchardy/python-binance"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 90580a34-7858-479f-b8ad-ea7ce43e9a7c)",
+    "path": "https://github.com/dyve/django-bootstrap-toolkit"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 6491fa64-f3dd-415e-b93a-4aa0eaa75fe0)",
+    "path": "https://github.com/pcmanus/ccm"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ac083a36-3acb-4558-83ca-8fb334a8802f)",
+    "path": "https://github.com/dreyco676/pytrends"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 52ac065c-c240-4297-a7b8-e40d312c5524)",
+    "path": "https://github.com/google/python-adb"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a9967103-1554-460a-b306-d12d600ce4a3)",
+    "path": "https://github.com/osrg/ryu"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "explosion/thinc@explosion/thinc#90129be5f0d6c665344245a7c37dbe1b8afceea2",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "explosion/thinc@explosion/thinc#90129be5f0d6c665344245a7c37dbe1b8afceea2",
+          "blis@0.2.4",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 31,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/explosion/thinc"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: bdf1fc80-d1c7-4da6-acda-3b7dce45514d)",
+    "path": "https://github.com/jiffyclub/snakeviz"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/Cue/scales"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b3a9d35d-3f83-47fe-8083-6615183b4067)",
+    "path": "https://github.com/Suor/django-cacheops"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 6,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/SoCo/SoCo"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "pydata/pandas-datareader@pydata/pandas-datareader#b2ee60b6bba08f360e81db65d174fac1c7889375",
+          "matplotlib@2.2.4",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "pydata/pandas-datareader@pydata/pandas-datareader#b2ee60b6bba08f360e81db65d174fac1c7889375",
+          "pandas@0.24.2",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 55,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/pydata/pandas-datareader"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 804cbaf1-c0fd-4ff4-9f93-70788c1c1a05)",
+    "path": "https://github.com/GPflow/GPflow"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 13,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/dropbox/pyannotate"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-05-25T12:42:28.712000Z",
+        "credit": [
+          "Dmitrii Izgurskii"
+        ],
+        "cvssScore": 3.3,
+        "description": "## Overview\n[`boto3`](https://pypi.python.org/pypi/boto3) is the AWS SDK for Python.\n\nAffected versions of this package are vulnerable to Information Exposure due to logging all of the bytes uploaded when the logger is set to the `INFO` level.\n\n## Remediation\nUpgrade `boto3` to version 1.4.5 or higher.\n\n## References\n- [GitHub Issue](https://github.com/boto/boto3/issues/1017)\n- [GitHub Commit](https://github.com/boto/boto3/commit/5a4396a4e0d1b337c081cb4095e5255da915198e)",
+        "disclosureTime": "2017-03-10T08:43:40.245000Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-BOTO3-40617",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:10.663593Z",
+        "moduleName": "boto3",
+        "packageManager": "pip",
+        "packageName": "boto3",
+        "patches": [],
+        "publicationTime": "2017-03-10T08:43:40.245000Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/boto/boto3/issues/1017"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/boto/boto3/commit/5a4396a4e0d1b337c081cb4095e5255da915198e"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.4.5)"
+          ]
+        },
+        "severity": "low",
+        "title": "Information Exposure",
+        "from": [
+          "nficano/python-lambda@nficano/python-lambda#d211b8b6c1f8b69fdaa10984aa38e395cb9b2685",
+          "boto3@1.4.4"
+        ],
+        "upgradePath": [],
+        "version": "1.4.4",
+        "name": "boto3",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 12,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 1
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/nficano/python-lambda"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c49d34f4-e3e2-4841-9682-ddfa68ff7ba9)",
+    "path": "https://github.com/sheffieldml/GPy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 21,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/koalalorenzo/python-digitalocean"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c9784f6f-ee4d-403a-9926-18928f0c983d)",
+    "path": "https://github.com/kmmbvnr/django-jenkins"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 6c6eeb2b-f1a6-4633-8d27-5fa60ec93d14)",
+    "path": "https://github.com/ColinDuquesnoy/QDarkStyleSheet"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ea0271ed-aa3d-4fde-8f5c-3f529edf3015)",
+    "path": "https://github.com/Parsely/pykafka"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 62d9c56b-b745-41f5-9cfe-890de64fd823)",
+    "path": "https://github.com/saghul/pyuv"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2018-10-10T08:41:56.309157Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\n[Requests](https://pypi.org/project/requests/) is a  _Non-GMO_ HTTP library for Python\r\n\r\nAffected versions of this package are vulnerable to Information Exposure.\r\nUpon receiving a same-hostname https-to-http redirect, it sends the HTTP Authorization header to an http URI. This makes it easier for remote attackers to discover credentials by sniffing the network.\r\n\r\n## Remediation\r\nUpgrade `request` to version 2.20 or higher.\n\n## References\n- [GitHub Commit](https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff)\n- [GitHub Issue](https://github.com/requests/requests/issues/4716)\n- [GitHub PR](https://github.com/requests/requests/pull/4718)\n",
+        "disclosureTime": "2018-10-09T17:16:32Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-REQUESTS-72435",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-18074"
+          ],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:11.991258Z",
+        "moduleName": "requests",
+        "packageManager": "pip",
+        "packageName": "requests",
+        "patches": [],
+        "publicationTime": "2018-10-10T11:23:44Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff"
+          },
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/requests/requests/issues/4716"
+          },
+          {
+            "title": "GitHub PR",
+            "url": "https://github.com/requests/requests/pull/4718"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.20)"
+          ]
+        },
+        "severity": "high",
+        "title": "Information Exposure",
+        "from": [
+          "ssut/py-googletrans@ssut/py-googletrans#4aebfb18faa45a7d7817fbd4b8fe8ff502bf9e81",
+          "requests@2.13.0"
+        ],
+        "upgradePath": [],
+        "version": "2.13.0",
+        "name": "requests",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/ssut/py-googletrans"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5fd98ca2-c580-4921-8bf5-113cd96b481f)",
+    "path": "https://github.com/sirfz/tesserocr"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "santosjorge/cufflinks@santosjorge/cufflinks#e2accbf980f77c7b9e539e14d9312bd0ff5b9edb",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "santosjorge/cufflinks@santosjorge/cufflinks#e2accbf980f77c7b9e539e14d9312bd0ff5b9edb",
+          "pandas@0.24.2",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 60,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/santosjorge/cufflinks"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 6,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/python-gitlab/python-gitlab"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5f010dd1-f25d-498f-b99a-df0c6c6e878e)",
+    "path": "https://github.com/blaze/odo"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/vandersonmota/model_mommy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 43,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jgorset/facepy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9f290619-c8d4-41b8-a90c-b663cde5f6e4)",
+    "path": "https://github.com/aio-libs/aiomysql"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9fd29173-de86-4598-8c90-2f04fa3a4492)",
+    "path": "https://github.com/Yelp/detect-secrets"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ea4f23b0-8260-4613-a75a-e8a6bc5fa942)",
+    "path": "https://github.com/redacted/XKCD-password-generator"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: b54ac9e1-e9f0-447a-90c6-ac8ce02aa8c2)",
+    "path": "https://github.com/adafruit/Adafruit_Python_DHT"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: dc0608b7-26d1-4632-b826-e8b7a75ecbd5)",
+    "path": "https://github.com/feincms/feincms"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5ce09850-c4d5-4fae-a9ad-7496d9c399fc)",
+    "path": "https://github.com/bloomreach/s4cmd"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/rlabbe/filterpy"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/quandl/quandl-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f1041a43-e5b1-46d9-a427-f4831bd56259)",
+    "path": "https://github.com/django-notifications/django-notifications"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c36b3fb1-52aa-4a17-ad83-4cd78a3691fc)",
+    "path": "https://github.com/django-polymorphic/django-polymorphic"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "Blosc/bcolz@Blosc/bcolz#c3da3135ca5e89e8593aafedf568b14ad701ba67",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/Blosc/bcolz"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/arteria/django-hijack"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 31ae0205-7606-4933-a444-bd66732a725c)",
+    "path": "https://github.com/gregmuellegger/django-floppyforms"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d81b7d5c-161a-470a-a128-e7f0f03b15a7)",
+    "path": "https://github.com/kmike/pymorphy2"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 4,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/spotify/snakebite"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 10,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/syrusakbary/pyjade"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 31,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/scanny/python-pptx"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 52dc9ff7-ab0d-40d2-8747-8be45c1989f6)",
+    "path": "https://github.com/digi604/django-smart-selects"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/bcbio/bcbio-nextgen"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 59cfaa14-a187-4bf2-a754-df9b12f88074)",
+    "path": "https://github.com/twisted/klein"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f69187c5-79ee-4f0a-856f-943eb3846b1b)",
+    "path": "https://github.com/cuthbertLab/music21"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 155,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "npm",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/axnsan12/drf-yasg"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4cefc799-1d93-4df3-a679-503ed7224c17)",
+    "path": "https://github.com/pinax/django-user-accounts"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/lukaszbanasiak/yahoo-finance"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2046b4e2-a524-44d6-9089-7b7b54caa82c)",
+    "path": "https://github.com/django-ses/django-ses"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 18,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/rytilahti/python-miio"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "wdm0006/categorical_encoding@wdm0006/categorical_encoding#374875b945685bcedec7e4069d329f510ea0c249",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "wdm0006/categorical_encoding@wdm0006/categorical_encoding#374875b945685bcedec7e4069d329f510ea0c249",
+          "pandas@0.24.2",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "wdm0006/categorical_encoding@wdm0006/categorical_encoding#374875b945685bcedec7e4069d329f510ea0c249",
+          "patsy@0.5.1",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "wdm0006/categorical_encoding@wdm0006/categorical_encoding#374875b945685bcedec7e4069d329f510ea0c249",
+          "scipy@1.2.1",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "wdm0006/categorical_encoding@wdm0006/categorical_encoding#374875b945685bcedec7e4069d329f510ea0c249",
+          "scikit-learn@0.20.3",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "wdm0006/categorical_encoding@wdm0006/categorical_encoding#374875b945685bcedec7e4069d329f510ea0c249",
+          "statsmodels@0.9.0",
+          "pandas@0.24.2",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "wdm0006/categorical_encoding@wdm0006/categorical_encoding#374875b945685bcedec7e4069d329f510ea0c249",
+          "statsmodels@0.9.0",
+          "patsy@0.5.1",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "wdm0006/categorical_encoding@wdm0006/categorical_encoding#374875b945685bcedec7e4069d329f510ea0c249",
+          "scikit-learn@0.20.3",
+          "scipy@1.2.1",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 9,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "8 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/wdm0006/categorical_encoding"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 78926b22-fc41-47e3-818c-97c78d7ec65b)",
+    "path": "https://github.com/pinax/pinax-notifications"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/mathiasertl/fabric"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1b830236-4eba-4509-912b-7bfecc10ac4d)",
+    "path": "https://github.com/kislyuk/yq"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c1978d78-34d7-4dfe-89c3-a524a3f80b84)",
+    "path": "https://github.com/mikeboers/PyAV"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 158aff4a-0577-4156-a5a4-2c0bffb53878)",
+    "path": "https://github.com/googledrive/PyDrive"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c352aa8d-2010-4a7d-ab6c-d0f64ea59e2d)",
+    "path": "https://github.com/davesque/django-rest-framework-simplejwt"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d65877c7-4167-4a10-a1f1-c7a645ed880e)",
+    "path": "https://github.com/BD2KGenomics/toil"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c8a7989e-a1f8-4edc-b5f2-0ddd145798b4)",
+    "path": "https://github.com/pinax/pinax-stripe"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4eaa8628-4e27-4403-90d4-e454fc5b0de0)",
+    "path": "https://github.com/fusepy/fusepy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: cb0afd46-1a41-4920-b339-2a4f76359b86)",
+    "path": "https://github.com/tumblr/pytumblr"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 57810072-e8f6-49e3-95ba-93d810c5e582)",
+    "path": "https://github.com/neovim/python-client"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 7,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pycontribs/jenkinsapi"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 4,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/yoavaviram/python-amazon-simple-product-api"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 4,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/areski/python-nvd3"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 1,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/globocom/m3u8"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2e822682-1626-48ea-8443-50206bc60f6b)",
+    "path": "https://github.com/rochacbruno/dynaconf"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 97ea26d0-c446-460f-9f30-aebcd4d25137)",
+    "path": "https://github.com/agschwender/pilbox"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 26,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/mongoengine/flask-mongoengine"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 6d73a680-147c-4bab-a428-3660d96e2989)",
+    "path": "https://github.com/docnow/twarc"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 61,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/jazzband/django-axes"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 4aec8173-bebe-4a46-ab0a-bc66739fa9fc)",
+    "path": "https://github.com/rapidsms/rapidsms"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3d6f287e-332c-4357-979b-3dc7c7aab87b)",
+    "path": "https://github.com/mopidy/mopidy-spotify"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/droope/droopescan"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f10d3072-594a-4d87-9f61-4303ec1d4976)",
+    "path": "https://github.com/Tinche/aiofiles"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 62,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/seleniumbase/SeleniumBase"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2368c41a-64e7-4697-baca-7996e3e93381)",
+    "path": "https://github.com/summernote/django-summernote"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: bf72bdf8-f975-49b6-b595-57879fe1af6f)",
+    "path": "https://github.com/gdabah/distorm"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9d932db8-e6e2-4bf7-923f-8e48d12f8a99)",
+    "path": "https://github.com/alimanfoo/petl"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 12,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/henriquebastos/python-decouple"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 15,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/singingwolfboy/flask-dance"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 12,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/klen/muffin"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: feec2b5e-9d24-434c-9d13-6cbbe7a1ac5b)",
+    "path": "https://github.com/jupyter-contrib/jupyter_nbextensions_configurator"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-01-16T14:11:37.000761Z",
+        "credit": [
+          "nanshihui"
+        ],
+        "cvssScore": 9.8,
+        "description": "## Overview\r\n\r\n[numpy](https://github.com/numpy/numpy) is a fundamental package needed for scientific computing with Python.\r\n\r\n\r\nAffected versions of this package are vulnerable to Arbitrary Code Execution.\r\nIt uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a `numpy.load` call.\r\n\r\nPoC by nanshihui:\r\n```py\r\nimport numpy\r\nfrom numpy import __version__\r\nprint __version__\r\nimport os\r\nimport  pickle\r\nclass Test(object):\r\n    def __init__(self):\r\n        self.a = 1\r\n\r\n    def __reduce__(self):\r\n        return (os.system,('ls',))\r\ntmpdaa = Test()\r\nwith open(\"a-file.pickle\",'wb') as f:\r\n    pickle.dump(tmpdaa,f)\r\nnumpy.load('a-file.pickle')\r\n```\r\n\r\n## Remediation\r\n\r\nThere is no fixed version for `numpy`.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/numpy/numpy/issues/12759)\r\n",
+        "disclosureTime": "2019-01-16T12:26:38Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-NUMPY-73513",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-6446"
+          ],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-01-26T14:45:25.170858Z",
+        "moduleName": "numpy",
+        "packageManager": "pip",
+        "packageName": "numpy",
+        "patches": [],
+        "publicationTime": "2019-01-16T13:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/numpy/numpy/issues/12759"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0,]"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Execution",
+        "from": [
+          "summanlp/textrank@summanlp/textrank#6844bbe8c4b2b468020ae0dfd6574a743f9ad442",
+          "scipy@1.2.1",
+          "numpy@1.16.2"
+        ],
+        "upgradePath": [],
+        "version": "1.16.2",
+        "name": "numpy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/summanlp/textrank"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/scoder/lupa"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 46e08b51-4321-45eb-b207-ac9c50f14824)",
+    "path": "https://github.com/graphql-python/flask-graphql"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: fe5b9437-ad62-434c-bac8-dbdd3be2d312)",
+    "path": "https://github.com/pycassa/pycassa"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d65d93cd-aeb9-4ba3-840f-f64decfc805b)",
+    "path": "https://github.com/kennethreitz/dj-static"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3f2a0c5a-30f2-44e6-a833-882bff1c30a1)",
+    "path": "https://github.com/randomchars/pushbullet.py"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d1b0086c-b458-4209-b2a6-72849bcff062)",
+    "path": "https://github.com/graphql-python/graphene-sqlalchemy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: debdbd28-ac4f-438c-b972-c97f0d435b25)",
+    "path": "https://github.com/pydata/patsy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7dfa1227-971d-4e39-827b-0e42980164dd)",
+    "path": "https://github.com/carljm/django-secure"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 72666bb6-4758-4341-906d-16bc081b4356)",
+    "path": "https://github.com/kennethreitz/flask-sslify"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 56c6bab9-6a1f-4848-8d97-2931923ba5c0)",
+    "path": "https://github.com/pyupio/safety"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1024b13b-eafd-4a2d-930a-2fa408d4d97e)",
+    "path": "https://github.com/svinota/pyroute2"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/tadeck/onetimepass"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 15479433-e463-4147-918e-b709a8dc868b)",
+    "path": "https://github.com/dobarkod/django-queryinspect"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/bear/parsedatetime"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9b1257aa-86be-4b28-a260-9985ffbc5f46)",
+    "path": "https://github.com/chrisdev/django-pandas"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 26,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/zostera/django-bootstrap4"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f1edbabb-a11e-4f4e-b57f-29f18eaa227b)",
+    "path": "https://github.com/pytest-dev/pytest-bdd"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 33,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/dronekit/dronekit-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: aba0884b-4df0-428b-accc-dc4409374af5)",
+    "path": "https://github.com/pytoolz/cytoolz"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 4,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/ggravlingen/pytradfri"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: f2a3161c-716e-445e-8c3a-f8702a0c2e23)",
+    "path": "https://github.com/lionheart/bottlenose"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 20,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/chrismattmann/tika-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 7ec5eef8-1387-42e0-940d-dec53ef6a085)",
+    "path": "https://github.com/ztane/python-Levenshtein"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 5,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/neutronX/django-markdownx"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 330dae73-30ef-4a33-ae34-6559bfe1c6f3)",
+    "path": "https://github.com/ierror/django-js-reverse"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 0e33b0d6-319f-4e0b-9482-390bb5ee1587)",
+    "path": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "hendrix/hendrix@hendrix/hendrix#175af011a7e5822b772bfec0e11a46466bb8688d",
+          "jinja2@2.10"
+        ],
+        "upgradePath": [],
+        "version": "2.10",
+        "name": "jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 34,
+    "severityMap": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/hendrix/hendrix"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: af089deb-6c25-4455-b514-fde7b35d7536)",
+    "path": "https://github.com/qiniu/python-sdk"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 0,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/opentracing/opentracing-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9db3b62c-0003-4b8c-a50c-04942355f16c)",
+    "path": "https://github.com/ui/django-post_office"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5d5a8d54-d3d9-40c8-9a03-511a70d32abb)",
+    "path": "https://github.com/scrapinghub/python-crfsuite"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2019-04-07T10:24:16.310959Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 6,
+        "description": "## Overview\r\n\r\n[jinja2](https://pypi.org/project/Jinja2/) is a template engine written in pure Python. It provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.\r\n\r\n\r\nAffected versions of this package are vulnerable to Sandbox Escape\r\nvia the `str.format_map`.\r\n\r\n## Remediation\r\n\r\nUpgrade `jinja2` to version 2.10.1 or higher.\r\n\r\n\r\n## References\r\n\r\n- [Release Notes](https://palletsprojects.com/blog/jinja-2-10-1-released)\r\n",
+        "disclosureTime": "2019-04-07T00:42:43Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-174126",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10906"
+          ],
+          "CWE": [
+            "CWE-265"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-04-07T13:13:03.054711Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "jinja2",
+        "patches": [],
+        "publicationTime": "2019-04-07T00:42:43Z",
+        "references": [
+          {
+            "title": "Release Notes",
+            "url": "https://palletsprojects.com/blog/jinja-2-10-1-released"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.10.1)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Sandbox Escape",
+        "from": [
+          "yahoo/redislite@yahoo/redislite#601431a07e8a1ec484d4b133d4bf3fa4626cf6d5",
+          "jinja2@2.7"
+        ],
+        "upgradePath": [],
+        "version": "2.7",
+        "name": "jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+        "alternativeIds": [],
+        "creationTime": "2017-04-13T12:32:00Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 5.3,
+        "description": "## Overview\r\n[`Jinja2`](https://pypi.python.org/pypi/Jinja2) is a small but fast and easy to use stand-alone template engine written in pure python.\r\n\r\nAffected versions of this package are vulnerable to Insecure Defaults attacks.\r\nThe default configuration for bccache.FileSystemBytecodeCache in Jinja2 before 2.7.2 does not properly create temporary files, which allows local users to gain privileges via a crafted .cache file with a name starting with `jinja2` in /tmp.\r\n\r\n## Remediation\r\nUpgrade to version `2.7.2` or greater.\r\n\r\n## References\r\n- [bugzilla redhat](https://bugzilla.redhat.com/CVE-2014-1402)\r\n- [Debian Security Advisory](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=734747)\r\n- [GitHub Commit](https://github.com/mitsuhiko/jinja2/commit/acb672b6)\r\n",
+        "disclosureTime": "2014-01-10T12:32:00Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-JINJA2-40028",
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-1402"
+          ],
+          "CWE": [
+            "CWE-264"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-02-17T08:46:41.630697Z",
+        "moduleName": "jinja2",
+        "packageManager": "pip",
+        "packageName": "jinja2",
+        "patches": [],
+        "publicationTime": "2014-01-10T12:32:00Z",
+        "references": [
+          {
+            "title": "bugzilla redhat",
+            "url": "https://bugzilla.redhat.com/CVE-2014-1402"
+          },
+          {
+            "title": "Debian Security Advisory",
+            "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=734747"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/mitsuhiko/jinja2/commit/acb672b6"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,2.7.2)"
+          ]
+        },
+        "severity": "medium",
+        "title": "Insecure Defaults",
+        "from": [
+          "yahoo/redislite@yahoo/redislite#601431a07e8a1ec484d4b133d4bf3fa4626cf6d5",
+          "jinja2@2.7"
+        ],
+        "upgradePath": [],
+        "version": "2.7",
+        "name": "jinja2",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 4,
+    "severityMap": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "path": "https://github.com/yahoo/redislite"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9274a448-2ee5-4201-8f14-7b100c827a93)",
+    "path": "https://github.com/celery/django-celery-beat"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: cee7a35a-7f9d-4f28-a1dd-7e2a12a6ed94)",
+    "path": "https://github.com/Mashape/unirest-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d45d8636-5aa3-452f-9bd8-8a72536f2723)",
+    "path": "https://github.com/coleifer/micawber"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 11,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/hozn/stravalib"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c2fc3cd0-d020-4db5-aa5b-eeb997a6eee8)",
+    "path": "https://github.com/earl/beanstalkc"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 6,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/timotheus/ebaysdk-python"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2019-02-11T09:24:51.167082Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 7.8,
+        "description": "## Overview\r\n\r\n[sqlalchemy](https://pypi.org/project/SQLAlchemy/) is a python SQL Toolkit and Object Relational Mapper.\r\n\r\n\r\nAffected versions of this package are vulnerable to SQL Injection\r\nwhen the `group_by` and `order_by` parameter can be controlled.\r\n\r\n## Remediation\r\n\r\nUpgrade `sqlalchemy` to version 1.2.18 or higher.\r\n\r\n\r\n## References\r\n\r\n- [GitHub Issue](https://github.com/sqlalchemy/sqlalchemy/issues/4481)\r\n\r\n- [BugZilla Report](https://bugzilla.redhat.com/show_bug.cgi?id=1674059)\r\n\r\n- [POC](https://github.com/no-security/sqlalchemy_test/blob/master/poc.py)\r\n\r\n- [GitHub Commit](https://github.com/sqlalchemy/sqlalchemy/issues/4473)\r\n",
+        "disclosureTime": "2019-02-01T15:35:37Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-SQLALCHEMY-173678",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-7164",
+            "CVE-2019-7548"
+          ],
+          "CWE": [
+            "CWE-89"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2019-02-24T14:02:09.893744Z",
+        "moduleName": "sqlalchemy",
+        "packageManager": "pip",
+        "packageName": "sqlalchemy",
+        "patches": [],
+        "publicationTime": "2019-02-11T15:35:47Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/sqlalchemy/sqlalchemy/issues/4481"
+          },
+          {
+            "title": "BugZilla Report",
+            "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1674059"
+          },
+          {
+            "title": "POC",
+            "url": "https://github.com/no-security/sqlalchemy_test/blob/master/poc.py"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/sqlalchemy/sqlalchemy/issues/4473"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.2.18)"
+          ]
+        },
+        "severity": "high",
+        "title": "SQL Injection",
+        "from": [
+          "Alexis-benoist/eralchemy@Alexis-benoist/eralchemy#d6fcdc67d6d413bb174bf008fd360044e1dff5a7",
+          "sqlalchemy@1.0.13"
+        ],
+        "upgradePath": [],
+        "version": "1.0.13",
+        "name": "sqlalchemy",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "1 vulnerable dependency path",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "path": "https://github.com/Alexis-benoist/eralchemy"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 5b168c96-a945-4006-b93b-8c437b6df551)",
+    "path": "https://github.com/mocobeta/janome"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 90146b67-51a5-465e-aae4-8755470236b0)",
+    "path": "https://github.com/jendrikseipp/vulture"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 3,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/davisp/ghp-import"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9436cc10-7ed8-4fec-85b1-369b56ccb1ef)",
+    "path": "https://github.com/jplana/python-etcd"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 13,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/discogs/discogs_client"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: c8cb6d39-0772-4e8a-8ad0-c0bee38a40eb)",
+    "path": "https://github.com/aws/aws-iot-device-sdk-python"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2737dc96-bab5-44e0-9ec1-df2bf4474e06)",
+    "path": "https://github.com/adafruit/adafruit-beaglebone-io-python"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 2,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/FSX/misaka"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1b3d1453-b6ac-4e9e-acdf-d69884071dde)",
+    "path": "https://github.com/epsy/clize"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: a41d0294-dd8c-4482-8e12-356c87d8450c)",
+    "path": "https://github.com/originell/jpype"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 773cd1fe-38e2-4d72-8ee2-d288ae45b9dc)",
+    "path": "https://github.com/iambrandontaylor/django-admin-sortable"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 9478bddc-c728-43c7-839f-4df94bac6b76)",
+    "path": "https://github.com/caioariede/django-location-field"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-11-07T08:45:03.854000Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 7.5,
+        "description": "## Overview\n[`pyjwt`](http://pypi.python.org/pypi/PyJWT) is a JSON Web Token implementation in Python.\n\nAffected versions of the package are vulnerable to Authentication Bypass.\nIn PyJWT 1.5.0 and below the `invalid_strings` check in `HMACAlgorithm.prepare_key` does not account for all PEM encoded public keys. Specifically, the PKCS1 PEM encoded format would be allowed because it is prefaced with the string `-----BEGIN RSA PUBLIC KEY-----` which is not accounted for. This enables symmetric/asymmetric key confusion attacks against users using the PKCS1 PEM encoded public keys, which would allow an attacker to craft JWTs from scratch.\n\n## Remediation\nUpgrade `pyjwt` to version 1.5.1 or higher.\n\n## References\n- [NVD](https://nvd.nist.gov/vuln/detail/CVE-2017-11424)\n- [Github PR](https://github.com/jpadilla/pyjwt/pull/277)\n- [Github Commit](https://github.com/jpadilla/pyjwt/commit/37926ea0dd207db070b45473438853447e4c1392)\n",
+        "disclosureTime": "2017-06-21T21:00:00Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-PYJWT-40693",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-11424"
+          ],
+          "CWE": [
+            "CWE-284"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:48.146801Z",
+        "moduleName": "pyjwt",
+        "packageManager": "pip",
+        "packageName": "pyjwt",
+        "patches": [],
+        "publicationTime": "2017-11-09T02:45:03.854000Z",
+        "references": [
+          {
+            "title": "NVD",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11424"
+          },
+          {
+            "title": "Github PR",
+            "url": "https://github.com/jpadilla/pyjwt/pull/277"
+          },
+          {
+            "title": "Github Commit",
+            "url": "https://github.com/jpadilla/pyjwt/commit/37926ea0dd207db070b45473438853447e4c1392"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.5.1)"
+          ]
+        },
+        "severity": "high",
+        "title": "Authentication Bypass",
+        "from": [
+          "mattupstate/flask-jwt@mattupstate/flask-jwt#c27084114e258863b82753fc574a362cd6c62fcd",
+          "pyjwt@1.4.2"
+        ],
+        "upgradePath": [],
+        "version": "1.4.2",
+        "name": "pyjwt",
+        "isUpgradable": false,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "alternativeIds": [],
+        "creationTime": "2017-11-05T00:00:00Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 7.5,
+        "description": "## Overview\nAffected versions of [`pyjwt`](https://pypi.python.org/pypi/pyjwt) are vulnerable to Access Restriction Bypass.\n\nIn PyJWT 1.5.0 and below the `invalid_strings` check in `HMACAlgorithm.prepare_key` does not account for all PEM encoded public keys. Specifically, the PKCS1 PEM encoded format would be allowed because it is prefaced with the string `-----BEGIN RSA PUBLIC KEY-----` which is not accounted for. This enables symmetric/asymmetric key confusion attacks against users using the PKCS1 PEM encoded public keys, which would allow an attacker to craft JWTs from scratch.\n\n## Remediation\nUpgrade `pyjwt` to version 1.5.1 or higher.\n\n## References\n- [NVD](https://nvd.nist.gov/vuln/detail/CVE-2017-11424)\n- [GitHub Changelog](https://github.com/jpadilla/pyjwt/blob/master/CHANGELOG.md#fixed-3)\n- [Github PR](https://github.com/jpadilla/pyjwt/pull/277)\n- [Github Commit](https://github.com/jpadilla/pyjwt/commit/eb3f58103831630f499e331de6e6938c84945a79)\n",
+        "disclosureTime": "2017-06-22T00:00:00Z",
+        "functions": [],
+        "id": "SNYK-PYTHON-PYJWT-40753",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-11424"
+          ],
+          "CWE": [
+            "CWE-284"
+          ]
+        },
+        "language": "python",
+        "methods": [],
+        "modificationTime": "2018-11-18T11:50:48.225234Z",
+        "moduleName": "pyjwt",
+        "packageManager": "pip",
+        "packageName": "pyjwt",
+        "patches": [],
+        "publicationTime": "2017-12-04T13:08:47.893000Z",
+        "references": [
+          {
+            "title": "NVD",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11424"
+          },
+          {
+            "title": "GitHub Changelog",
+            "url": "https://github.com/jpadilla/pyjwt/blob/master/CHANGELOG.md#fixed-3"
+          },
+          {
+            "title": "Github PR",
+            "url": "https://github.com/jpadilla/pyjwt/pull/277"
+          },
+          {
+            "title": "Github Commit",
+            "url": "https://github.com/jpadilla/pyjwt/commit/eb3f58103831630f499e331de6e6938c84945a79"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.5.1)"
+          ]
+        },
+        "severity": "high",
+        "title": "Access Restriction Bypass",
+        "from": [
+          "mattupstate/flask-jwt@mattupstate/flask-jwt#c27084114e258863b82753fc574a362cd6c62fcd",
+          "pyjwt@1.4.2"
+        ],
+        "upgradePath": [],
+        "version": "1.4.2",
+        "name": "pyjwt",
+        "isUpgradable": false,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 7,
+    "severityMap": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "path": "https://github.com/mattupstate/flask-jwt"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 2e7af55b-bd4f-4999-8a1e-e1c1f0d30dd3)",
+    "path": "https://github.com/jarus/flask-testing"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 18,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/davidmarble/virtualenvwrapper-win"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: e0dab0ba-c9e3-48a7-97bc-c02bb5e7e17e)",
+    "path": "https://github.com/rm-hull/luma.oled"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 747cfb34-0626-4a72-8d6f-e35c3630f630)",
+    "path": "https://github.com/thesharp/daemonize"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 1b479850-cf9c-46ed-a525-2df0d75d8d51)",
+    "path": "https://github.com/file/file"
+  },
+  {
+    "ok": false,
+    "vulnerabilities": [
+      {
+        "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+        "alternativeIds": [],
+        "creationTime": "2017-03-01T14:50:42.363000Z",
+        "credit": [
+          "Matthew Lyon"
+        ],
+        "cvssScore": 7.3,
+        "description": "## Overview\n[`faraday_middleware`](https://rubygems.org/gems/faraday_middleware) is a middleware for Faraday.\n\nAffected versions of the package are vulnerable to Arbitrary Code Injection via the `YAML.load()` function.\n\n## Remediation\nUpgrade `faraday_middleware` to version 0.12.0 or higher.\n\n## References\n- [Aaron Patterson's Blog](http://tenderlovemaking.com/2013/02/06/yaml-f7u12.html)\n- [GitHub Issue](https://github.com/lostisland/faraday_middleware/issues/92)\n- [GitHub Commit](https://github.com/lostisland/faraday_middleware/commit/179d0972598cec6cf063e2db4cc335986aa56cf3)\n",
+        "disclosureTime": "2014-06-23T21:00:00Z",
+        "functions": [],
+        "id": "SNYK-RUBY-FARADAYMIDDLEWARE-20334",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-200",
+            "CWE-94"
+          ]
+        },
+        "language": "ruby",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:11.500027Z",
+        "moduleName": "faraday_middleware",
+        "packageManager": "rubygems",
+        "packageName": "faraday_middleware",
+        "patches": [],
+        "publicationTime": "2017-03-13T08:00:23.288000Z",
+        "references": [
+          {
+            "title": "Aaron Patterson's Blog",
+            "url": "http://tenderlovemaking.com/2013/02/06/yaml-f7u12.html"
+          },
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/lostisland/faraday_middleware/issues/92"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/lostisland/faraday_middleware/commit/179d0972598cec6cf063e2db4cc335986aa56cf3"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<0.12.0"
+          ]
+        },
+        "severity": "high",
+        "title": "Arbitrary Code Injection",
+        "from": [
+          "mLewisLogic/foursquare@mLewisLogic/foursquare#420f3b588b9af154688ec82649f24a70f96c1665",
+          "travis@1.6.2",
+          "faraday_middleware@0.9.0"
+        ],
+        "upgradePath": [
+          false,
+          "travis@1.6.2",
+          "faraday_middleware@0.12.0"
+        ],
+        "version": "0.9.0",
+        "name": "faraday_middleware",
+        "isUpgradable": true,
+        "isPatchable": false
+      },
+      {
+        "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "alternativeIds": [],
+        "creationTime": "2018-06-22T17:33:39.946000Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 7.8,
+        "description": "## Overview\n[ffi](https://rubygems.org/gems/ffi) is a ruby extension for programmatically loading dynamic libraries, binding functions within them, and calling those functions from Ruby code.\n\nAffected versions of this package are vulnerable to DLL Loading Issue on Windows OS, when a Symbol is used as DLL name instead of a String.\n\n## Remediation\nUpgrade `ffi` to version 1.9.24 or higher.\n\n## References\n- [GitHub Commit](https://github.com/ffi/ffi/commit/e0fe486df0e117ed67b0282b6ada04b7214ca05c)\n",
+        "disclosureTime": "2018-06-22T17:33:39.946000Z",
+        "functions": [],
+        "id": "SNYK-RUBY-FFI-22037",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-1000201"
+          ],
+          "CWE": [
+            "CWE-427"
+          ]
+        },
+        "language": "ruby",
+        "methods": [],
+        "modificationTime": "2018-11-22T10:10:06.891935Z",
+        "moduleName": "ffi",
+        "packageManager": "rubygems",
+        "packageName": "ffi",
+        "patches": [],
+        "publicationTime": "2018-06-28T09:19:22.937000Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/ffi/ffi/commit/e0fe486df0e117ed67b0282b6ada04b7214ca05c"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<1.9.24"
+          ]
+        },
+        "severity": "high",
+        "title": "DLL Loading Issue",
+        "from": [
+          "mLewisLogic/foursquare@mLewisLogic/foursquare#420f3b588b9af154688ec82649f24a70f96c1665",
+          "travis@1.6.2",
+          "typhoeus@0.6.6",
+          "ethon@0.6.1",
+          "ffi@1.9.3"
+        ],
+        "upgradePath": [
+          false,
+          "travis@1.6.2",
+          "typhoeus@0.6.6",
+          "ethon@0.6.1",
+          "ffi@1.9.24"
+        ],
+        "version": "1.9.3",
+        "name": "ffi",
+        "isUpgradable": true,
+        "isPatchable": false
+      }
+    ],
+    "numDependencies": 25,
+    "severityMap": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "rubygems",
+    "summary": "2 vulnerable dependency paths",
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "path": "https://github.com/mLewisLogic/foursquare"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 9,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/ansible/tower-cli"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 149f3340-17dd-403f-8f25-38f13232248d)",
+    "path": "https://github.com/beerfactory/hbmqtt"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 14,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/viniciuschiele/flask-apscheduler"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d9bf0d94-d978-40df-af8e-622a658ce9a0)",
+    "path": "https://github.com/zhangfisher/DjangoUeditor"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: d6f990b3-8aa5-47f2-ae9f-c0bee249dde2)",
+    "path": "https://github.com/jmcarp/nplusone"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: 3823a170-3185-4ce9-8352-a9d94552ace9)",
+    "path": "https://github.com/miracle2k/flask-assets"
+  },
+  {
+    "ok": true,
+    "vulnerabilities": [],
+    "numDependencies": 8,
+    "severityMap": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "org": "james2hey",
+    "packageManager": "pip",
+    "summary": "No known vulnerabilities",
+    "uniqueCount": 0,
+    "path": "https://github.com/pkkid/python-plexapi"
+  },
+  {
+    "ok": false,
+    "error": "Internal error (reference: ba353ffb-6726-4bc5-9609-b3d0faf0f5de)",
+    "path": "https://github.com/splunk/splunk-sdk-python"
+  }
+]
