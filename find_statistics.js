@@ -4,6 +4,7 @@ function parseReports(reports, currentStats) {
         : {
             packages: {
                 total: 0,
+                total_valid: 0,
                 safe: 0,
                 unsafe: 0,
                 errors: 0,
@@ -20,10 +21,11 @@ function parseReports(reports, currentStats) {
             publicationTimes: [],
         };
     for (const report of reports) {
+        stats.packages.total += 1;
         if (report.error) {
             stats.packages.errors++;
         } else {
-            stats.packages.total += 1;
+            stats.packages.total_valid += 1;
             stats.numDependencies += report.numDependencies;
             stats.numDependenciesPerPackage.push(report.numDependencies);
             if (report.ok) {
@@ -66,34 +68,63 @@ function parseBatchReports(reportsList) {
 
 const generateReport = (reportsList) => {
     const stats = parseBatchReports(reportsList);
-    console.log({
-        packages: stats.packages,
-        numDependencies: stats.numDependencies,
-        vulnerabilities: stats.vulnerabilities,
-    });
 
-    console.log(`Average number of dependencies per package: ${round(stats.numDependencies / stats.packages.total, 2)}`);
-    console.log(`Median number of dependencies per package: ${getMedian(stats.numDependenciesPerPackage)}`);
-
-    console.log(`${round(stats.packages.unsafe / stats.packages.total * 100, 2)}% of packages had vulnerable dependencies.`);
+    const aveDepPerPackage = round(stats.numDependencies / stats.packages.total_valid, 2);
+    const medDepPerPackage = getMedian(stats.numDependenciesPerPackage);
+    const vulnerableDeps = round(stats.packages.unsafe / stats.packages.total_valid * 100, 2);
 
     const totalVulnerabilities = stats.vulnerabilities.high + stats.vulnerabilities.medium + stats.vulnerabilities.low;
-    console.log(`Vulnerabilities:
-        ${round(stats.vulnerabilities.high / totalVulnerabilities * 100, 2)}% high
-        ${round(stats.vulnerabilities.medium / totalVulnerabilities * 100, 2)}% medium
-        ${round(stats.vulnerabilities.low / totalVulnerabilities * 100, 2)}% low
-    `);
 
     const averageDate = stats.publicationTime / stats.numVulnerabilities;
     const averageSinceInDays = (Date.now() - averageDate) / (1000 * 60 * 60 * 24);
-    console.log(`Average time since vulnerability publication date: ${round(averageSinceInDays, 0)} days`);
+
     const medianSinceInDays = (Date.now() - getMedian(stats.publicationTimes).getTime()) / (1000 * 60 * 60 * 24);
-    console.log(`Median time since vulnerability publication date: ${round(medianSinceInDays, 0)} days`);
+
+    const report = {
+        packages: stats.packages,
+        numDependencies: stats.numDependencies,
+        vulnerabilities: stats.vulnerabilities,
+        aveDepPerPackage,
+        medDepPerPackage,
+        vulnerableDeps,
+        totalVulnerabilities,
+        averageSinceInDays,
+        medianSinceInDays
+    };
+    printReport(report);
+    return report
+};
+
+const printReport = (report) => {
+    console.log(`Valid Tests: ${report.packages.total_valid}/${report.packages.total}`);
+    console.log(`Safe Packages: ${report.packages.safe}`);
+    console.log(`Unsafe Packages: ${report.packages.unsafe}`);
+    console.log(`Unsafe/Safe ratio: ${report.vulnerableDeps}%\n`);
+
+    console.log(`Vulnerabilities:
+        ${round(report.vulnerabilities.high / report.totalVulnerabilities * 100, 2)}% high
+        ${round(report.vulnerabilities.medium / report.totalVulnerabilities * 100, 2)}% medium
+        ${round(report.vulnerabilities.low / report.totalVulnerabilities * 100, 2)}% low
+    `);
+
+    console.log(`Average number of dependencies per package: ${report.aveDepPerPackage}`);
+    console.log(`Median number of dependencies per package: ${report.medDepPerPackage}`);
+
+    console.log(`Average time since vulnerability publication date: ${round(report.averageSinceInDays, 0)} days`);
+    console.log(`Median time since vulnerability publication date: ${round(report.medianSinceInDays, 0)} days`);
+    console.log(`---------------------------------------------------\n`)
 };
 
 
-const reportsList = [require('./results/pypi_000_200'), require('./results/pypi_200_400'), require('./results/pypi_400_600'), require('./results/pypi_600_800'), require('./results/pypi_800_1000')];
-generateReport(reportsList);
+const mavenReport = [require('./results/maven_top_500')];
+const npmReport = [require('./results/npm_top_500')];
+const pypiReport = [require('./results/pypi_top_500')];
 
 
+generateReport(mavenReport);
+// generateReport(npmReport);
+// generateReport(pypiReport);
+
+// const totalReport = [require('./results/maven_top_500'), require('./results/npm_top_500'), require('./results/pypi_top_500')]
+// generateReport(totalReport);
 
